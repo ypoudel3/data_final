@@ -1,21 +1,1001 @@
-patient_name,age,gender,condition,medication,cholesterol,systolic,diastolic,visit_year,visit_month
- david lee ,25,other,Heart Disease,METFORMIN,200.0,140.0,90.0,2020.0,1.0
- emily davis ,35,male,Diabetes,NONE,200.0,120.0,80.0,2020.0,1.0
- laura martinez ,35,other,Asthma,METFORMIN,160.0,110.0,70.0,2020.0,1.0
- michael wilson ,35,male,Diabetes,ALBUTEROL,200.0,110.0,70.0,2020.0,1.0
- david lee ,35,female,Asthma,NONE,180.0,110.0,70.0,2020.0,1.0
- mary clark ,35,male,Hypertension,METFORMIN,180.0,140.0,90.0,2020.0,1.0
- robert brown ,35,male,Hypertension,LISINOPRIL,200.0,120.0,80.0,2020.0,1.0
- laura martinez ,60,other,Heart Disease,NONE,180.0,140.0,90.0,2020.0,1.0
- sarah johnson ,70,female,Hypertension,ALBUTEROL,220.0,130.0,85.0,2020.0,1.0
- michael wilson ,35,female,Heart Disease,ATORVASTATIN,180.0,110.0,70.0,2020.0,1.0
- jane smith ,60,female,Asthma,ALBUTEROL,200.0,120.0,80.0,2020.0,1.0
- sarah johnson ,25,other,Diabetes,NONE,200.0,120.0,80.0,2020.0,1.0
- john doe ,25,male,Asthma,LISINOPRIL,200.0,140.0,90.0,2020.0,1.0
- john doe ,35,male,Hypertension,ATORVASTATIN,200.0,120.0,80.0,2020.0,1.0
- robert brown ,70,male,Asthma,METFORMIN,220.0,140.0,90.0,2020.0,1.0
- james taylor ,25,female,Asthma,LISINOPRIL,200.0,110.0,70.0,2020.0,1.0
- jane smith ,35,female,Diabetes,METFORMIN,220.0,110.0,70.0,2020.0,1.0
- james taylor ,60,male,Hypertension,LISINOPRIL,200.0,120.0,80.0,2020.0,1.0
- mary clark ,25,other,Heart Disease,METFORMIN,180.0,110.0,70.0,2020.0,1.0
- emily davis ,25,female,Asthma,ALBUTEROL,200.0,110.0,70.0,2020.0,1.0
+patient_name,age,gender,condition,medication,visit_date,cholesterol,systolic,diastolic,visit_year,visit_month
+ david lee ,25,other,Heart Disease,METFORMIN,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,male,Diabetes,NONE,,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,male,Diabetes,ALBUTEROL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,male,Hypertension,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Hypertension,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ david lee ,60,other,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,other,Heart Disease,NONE,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,25,male,Asthma,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Diabetes,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,25,female,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,70,female,Hypertension,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Heart Disease,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,60,female,Asthma,ALBUTEROL,,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,70,female,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,other,Diabetes,NONE,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,70,male,Heart Disease,NONE,,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,male,Hypertension,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,25,male,Asthma,LISINOPRIL,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,male,Asthma,NONE,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,60,male,Diabetes,METFORMIN,,160.0,120.0,80.0,2020.0,1.0
+ james taylor ,60,male,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Hypertension,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ mary clark ,70,male,Heart Disease,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Asthma,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ david lee ,70,male,Asthma,ALBUTEROL,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,other,Hypertension,NONE,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,female,Asthma,NONE,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,male,Asthma,METFORMIN,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,female,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,60,female,Diabetes,LISINOPRIL,,160.0,110.0,70.0,2020.0,1.0
+ david lee ,25,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,60,other,Heart Disease,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,25,female,Asthma,LISINOPRIL,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Hypertension,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,female,Diabetes,METFORMIN,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,male,Heart Disease,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,60,male,Hypertension,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,other,Hypertension,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,other,Heart Disease,METFORMIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,male,Diabetes,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,male,Asthma,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Asthma,ATORVASTATIN,,200.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,female,Heart Disease,NONE,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,70,other,Heart Disease,NONE,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Heart Disease,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Diabetes,METFORMIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ john doe ,35,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Asthma,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Hypertension,ALBUTEROL,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,25,other,Hypertension,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Heart Disease,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,male,Asthma,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,other,Diabetes,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,male,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Asthma,LISINOPRIL,,160.0,110.0,70.0,2020.0,1.0
+ emily davis ,70,male,Diabetes,NONE,,200.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,25,male,Heart Disease,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,70,other,Hypertension,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,60,female,Diabetes,ATORVASTATIN,,220.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,female,Asthma,METFORMIN,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,25,other,Heart Disease,NONE,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,other,Diabetes,METFORMIN,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,70,female,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,female,Asthma,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,60,male,Diabetes,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ laura martinez ,25,other,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,25,male,Heart Disease,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,female,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,female,Asthma,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ john doe ,25,female,Hypertension,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Heart Disease,ATORVASTATIN,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ david lee ,70,male,Diabetes,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,70,female,Heart Disease,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Heart Disease,ALBUTEROL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ john doe ,60,male,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,female,Heart Disease,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,male,Hypertension,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,other,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,70,other,Asthma,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,other,Heart Disease,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Heart Disease,LISINOPRIL,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,70,female,Asthma,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,female,Diabetes,NONE,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,other,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,25,other,Hypertension,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,male,Diabetes,NONE,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,male,Heart Disease,ATORVASTATIN,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ david lee ,70,other,Heart Disease,METFORMIN,,200.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,other,Heart Disease,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Hypertension,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,25,other,Heart Disease,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,70,male,Diabetes,NONE,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,male,Asthma,NONE,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,70,other,Diabetes,NONE,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,other,Heart Disease,ATORVASTATIN,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ laura martinez ,25,male,Asthma,ATORVASTATIN,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,female,Asthma,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,70,other,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Asthma,LISINOPRIL,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,25,male,Asthma,ALBUTEROL,,200.0,110.0,70.0,2020.0,1.0
+ john doe ,60,male,Asthma,ALBUTEROL,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Diabetes,ALBUTEROL,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,male,Diabetes,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,70,other,Diabetes,NONE,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,female,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Asthma,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,female,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Diabetes,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,35,male,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,60,male,Diabetes,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,25,female,Asthma,ALBUTEROL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,25,male,Heart Disease,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,60,other,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,70,other,Diabetes,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ robert brown ,25,female,Asthma,NONE,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,60,other,Diabetes,ATORVASTATIN,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,male,Asthma,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,other,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,other,Heart Disease,NONE,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Heart Disease,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,female,Hypertension,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,70,male,Asthma,NONE,,220.0,130.0,85.0,2020.0,1.0
+ david lee ,70,female,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,female,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,LISINOPRIL,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Asthma,METFORMIN,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ john doe ,60,male,Heart Disease,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,70,male,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,female,Diabetes,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,other,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,other,Asthma,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,male,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,25,other,Asthma,NONE,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,60,female,Diabetes,ALBUTEROL,,220.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,60,male,Heart Disease,NONE,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Diabetes,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,male,Hypertension,NONE,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,female,Diabetes,LISINOPRIL,,200.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,male,Asthma,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,female,Diabetes,LISINOPRIL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,male,Heart Disease,NONE,,160.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Asthma,METFORMIN,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ john doe ,35,male,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Asthma,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Heart Disease,NONE,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,35,male,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,female,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,60,other,Asthma,NONE,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,60,other,Heart Disease,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,70,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,70,male,Asthma,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,female,Asthma,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ john doe ,35,other,Asthma,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ john doe ,60,female,Asthma,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Asthma,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,other,Heart Disease,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ david lee ,35,male,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,70,other,Hypertension,LISINOPRIL,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,male,Heart Disease,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,25,other,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Diabetes,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,70,male,Diabetes,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,other,Hypertension,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,male,Diabetes,LISINOPRIL,,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,25,male,Asthma,LISINOPRIL,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Asthma,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ david lee ,25,other,Heart Disease,NONE,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,70,other,Heart Disease,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ john doe ,25,other,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,other,Hypertension,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,60,female,Diabetes,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,25,male,Diabetes,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,female,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,male,Asthma,ALBUTEROL,,200.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,70,male,Diabetes,ATORVASTATIN,,200.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Heart Disease,LISINOPRIL,,160.0,110.0,70.0,2020.0,1.0
+ john doe ,70,female,Heart Disease,NONE,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,other,Diabetes,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,other,Asthma,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,60,male,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Diabetes,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,other,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,ATORVASTATIN,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,female,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Asthma,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,60,other,Diabetes,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,LISINOPRIL,,160.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,male,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ john doe ,25,other,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,70,other,Diabetes,METFORMIN,,200.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Hypertension,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ jane smith ,25,other,Heart Disease,LISINOPRIL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,female,Diabetes,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,25,female,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,70,female,Asthma,NONE,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,other,Diabetes,ATORVASTATIN,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,male,Diabetes,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ david lee ,60,female,Diabetes,NONE,,160.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,male,Asthma,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,male,Heart Disease,ALBUTEROL,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ david lee ,60,other,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,male,Asthma,NONE,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,other,Heart Disease,ALBUTEROL,,200.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Heart Disease,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Heart Disease,METFORMIN,,200.0,120.0,80.0,2020.0,1.0
+ john doe ,35,other,Asthma,NONE,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,male,Asthma,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ michael wilson ,25,male,Diabetes,METFORMIN,,200.0,120.0,80.0,2020.0,1.0
+ david lee ,60,female,Asthma,METFORMIN,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,male,Heart Disease,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,other,Asthma,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,male,Asthma,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Asthma,LISINOPRIL,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,60,female,Asthma,ALBUTEROL,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,70,female,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ laura martinez ,70,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Hypertension,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,LISINOPRIL,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,female,Hypertension,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Asthma,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,other,Diabetes,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,female,Heart Disease,ALBUTEROL,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,60,female,Asthma,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,male,Diabetes,NONE,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,other,Asthma,METFORMIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Hypertension,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,60,other,Hypertension,ALBUTEROL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,60,female,Hypertension,NONE,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,female,Asthma,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Diabetes,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Asthma,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ jane smith ,25,male,Hypertension,LISINOPRIL,,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,male,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,other,Heart Disease,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,70,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Asthma,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ john doe ,70,other,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,female,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,60,female,Asthma,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Hypertension,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Heart Disease,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Diabetes,NONE,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,male,Hypertension,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,35,other,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,female,Diabetes,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Hypertension,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,other,Hypertension,METFORMIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,other,Heart Disease,NONE,,200.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,70,female,Heart Disease,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,male,Asthma,LISINOPRIL,,160.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,60,male,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Hypertension,NONE,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,female,Heart Disease,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ robert brown ,25,male,Diabetes,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,female,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,other,Asthma,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Hypertension,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ robert brown ,25,female,Asthma,ALBUTEROL,,200.0,120.0,80.0,2020.0,1.0
+ emily davis ,60,male,Heart Disease,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,female,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Diabetes,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,25,other,Diabetes,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Heart Disease,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,male,Diabetes,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,METFORMIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Hypertension,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Asthma,NONE,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,70,male,Asthma,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,male,Diabetes,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Diabetes,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,other,Diabetes,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,other,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,60,female,Asthma,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,other,Heart Disease,NONE,,180.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,female,Hypertension,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,female,Asthma,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,other,Heart Disease,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,female,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,other,Diabetes,LISINOPRIL,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,female,Asthma,NONE,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,other,Hypertension,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ laura martinez ,25,other,Asthma,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,ATORVASTATIN,,220.0,120.0,80.0,2020.0,1.0
+ jane smith ,70,male,Hypertension,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Heart Disease,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,60,other,Heart Disease,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,25,male,Asthma,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,60,female,Asthma,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ jane smith ,70,female,Diabetes,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,70,female,Heart Disease,NONE,,200.0,120.0,80.0,2020.0,1.0
+ john doe ,25,male,Hypertension,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Heart Disease,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,25,female,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,female,Asthma,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Diabetes,METFORMIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ mary clark ,25,female,Hypertension,NONE,,160.0,140.0,90.0,2020.0,1.0
+ david lee ,60,other,Asthma,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,female,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ jane smith ,25,male,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Diabetes,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,male,Diabetes,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,70,other,Asthma,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ david lee ,35,female,Heart Disease,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,70,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,60,female,Hypertension,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,other,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Hypertension,NONE,,180.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,NONE,,160.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,60,female,Heart Disease,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Heart Disease,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,70,female,Heart Disease,NONE,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,male,Diabetes,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,ATORVASTATIN,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,male,Hypertension,ALBUTEROL,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,other,Asthma,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,female,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ mary clark ,70,male,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,male,Hypertension,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,other,Heart Disease,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,60,male,Heart Disease,LISINOPRIL,,200.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Heart Disease,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,male,Hypertension,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Heart Disease,ALBUTEROL,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ david lee ,60,male,Heart Disease,METFORMIN,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,female,Heart Disease,NONE,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,male,Hypertension,NONE,,200.0,110.0,70.0,2020.0,1.0
+ emily davis ,60,other,Heart Disease,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Hypertension,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ david lee ,25,male,Heart Disease,METFORMIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,60,other,Asthma,LISINOPRIL,,200.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,female,Asthma,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,female,Hypertension,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,male,Asthma,METFORMIN,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,NONE,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Asthma,NONE,,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,70,female,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Asthma,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,60,other,Heart Disease,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,60,other,Asthma,NONE,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,other,Hypertension,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,other,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,male,Diabetes,ALBUTEROL,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ james taylor ,70,other,Diabetes,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,60,female,Asthma,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ mary clark ,70,male,Heart Disease,NONE,,200.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,female,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,60,female,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,other,Asthma,ALBUTEROL,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,60,female,Asthma,NONE,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,male,Asthma,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,25,other,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,other,Diabetes,LISINOPRIL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ john doe ,25,male,Diabetes,NONE,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,70,other,Hypertension,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,25,male,Asthma,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,male,Heart Disease,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,male,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,female,Heart Disease,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Hypertension,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,other,Hypertension,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,male,Heart Disease,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,70,other,Hypertension,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Diabetes,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,other,Asthma,LISINOPRIL,,220.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,male,Asthma,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ david lee ,25,other,Heart Disease,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,female,Asthma,ALBUTEROL,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ john doe ,60,other,Heart Disease,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,male,Diabetes,NONE,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ david lee ,25,other,Asthma,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,female,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,25,male,Heart Disease,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,other,Asthma,ATORVASTATIN,,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,other,Hypertension,ATORVASTATIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,other,Heart Disease,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,female,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,60,female,Heart Disease,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,other,Asthma,NONE,,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,60,male,Diabetes,LISINOPRIL,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,male,Heart Disease,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,female,Asthma,ATORVASTATIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ john doe ,70,male,Hypertension,NONE,,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,70,female,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,other,Hypertension,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,female,Heart Disease,NONE,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,female,Asthma,NONE,,220.0,120.0,80.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,25,male,Asthma,NONE,,200.0,120.0,80.0,2020.0,1.0
+ john doe ,35,female,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,female,Diabetes,NONE,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,60,female,Heart Disease,NONE,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ john doe ,70,other,Heart Disease,NONE,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,60,female,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,METFORMIN,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,male,Heart Disease,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,70,male,Asthma,LISINOPRIL,,160.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Asthma,METFORMIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ john doe ,35,male,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,female,Heart Disease,METFORMIN,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,female,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,male,Diabetes,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,25,male,Asthma,METFORMIN,,200.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Diabetes,ATORVASTATIN,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,male,Hypertension,NONE,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,70,male,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,male,Diabetes,NONE,,180.0,120.0,80.0,2020.0,1.0
+ laura martinez ,60,other,Heart Disease,NONE,,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,70,male,Heart Disease,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,25,other,Hypertension,LISINOPRIL,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,other,Asthma,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Hypertension,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,25,female,Asthma,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ emily davis ,60,female,Heart Disease,NONE,,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,female,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Heart Disease,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,other,Heart Disease,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Diabetes,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Heart Disease,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ james taylor ,70,male,Hypertension,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Diabetes,NONE,,220.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,female,Heart Disease,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,male,Asthma,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,female,Heart Disease,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,male,Hypertension,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,male,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ laura martinez ,25,male,Heart Disease,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,25,male,Asthma,ATORVASTATIN,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ john doe ,35,male,Asthma,NONE,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,male,Heart Disease,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,male,Diabetes,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,female,Asthma,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Asthma,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ david lee ,25,male,Diabetes,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,female,Diabetes,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Diabetes,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Diabetes,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,60,male,Heart Disease,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ david lee ,25,other,Heart Disease,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Heart Disease,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,female,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,other,Asthma,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,female,Asthma,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Hypertension,NONE,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,25,other,Asthma,NONE,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,25,male,Heart Disease,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,60,other,Heart Disease,NONE,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Hypertension,ATORVASTATIN,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ john doe ,35,male,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,male,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,70,other,Hypertension,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Diabetes,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,60,male,Heart Disease,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ david lee ,35,male,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Heart Disease,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,other,Heart Disease,ALBUTEROL,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,male,Hypertension,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Hypertension,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,other,Diabetes,LISINOPRIL,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,other,Heart Disease,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,60,male,Diabetes,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,male,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,25,male,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,60,other,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ david lee ,70,female,Asthma,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,other,Asthma,ALBUTEROL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,other,Asthma,NONE,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,other,Heart Disease,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,60,female,Hypertension,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,male,Diabetes,NONE,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ david lee ,70,male,Hypertension,NONE,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,female,Asthma,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,female,Heart Disease,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,25,female,Heart Disease,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,female,Heart Disease,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Asthma,NONE,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,25,male,Asthma,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,60,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,male,Asthma,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,25,female,Asthma,ALBUTEROL,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,other,Heart Disease,METFORMIN,,160.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,female,Heart Disease,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,other,Hypertension,NONE,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,male,Diabetes,LISINOPRIL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,female,Hypertension,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,female,Hypertension,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,male,Asthma,NONE,,220.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,60,male,Hypertension,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Hypertension,LISINOPRIL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ emily davis ,25,other,Hypertension,NONE,,160.0,140.0,90.0,2020.0,1.0
+ john doe ,35,female,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,other,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,female,Hypertension,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,female,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,60,male,Heart Disease,NONE,,160.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,70,other,Asthma,NONE,,160.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,male,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,70,male,Diabetes,NONE,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,other,Asthma,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,female,Asthma,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ david lee ,35,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,60,other,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,70,male,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,female,Diabetes,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,25,other,Diabetes,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,male,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,25,male,Hypertension,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Hypertension,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,female,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,70,female,Hypertension,METFORMIN,,200.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Hypertension,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ john doe ,70,female,Asthma,ATORVASTATIN,,220.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Asthma,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ michael wilson ,25,other,Asthma,NONE,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,male,Asthma,NONE,,160.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,male,Heart Disease,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,70,other,Hypertension,NONE,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ michael wilson ,60,female,Hypertension,NONE,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,other,Hypertension,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,ALBUTEROL,,160.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Heart Disease,LISINOPRIL,,200.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,male,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,other,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,female,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Diabetes,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Diabetes,NONE,,220.0,140.0,90.0,2020.0,1.0
+ john doe ,35,female,Hypertension,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ michael wilson ,70,male,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,25,female,Hypertension,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,female,Hypertension,ALBUTEROL,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,70,female,Diabetes,METFORMIN,,160.0,120.0,80.0,2020.0,1.0
+ david lee ,25,other,Hypertension,NONE,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ james taylor ,70,other,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Asthma,NONE,,180.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,NONE,,220.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,70,male,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,60,female,Heart Disease,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,male,Diabetes,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,male,Diabetes,NONE,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,female,Heart Disease,NONE,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,female,Heart Disease,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Diabetes,LISINOPRIL,,160.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,male,Heart Disease,ATORVASTATIN,,200.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,other,Hypertension,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,60,other,Asthma,NONE,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,female,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,other,Asthma,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,70,other,Hypertension,ALBUTEROL,,160.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Heart Disease,ATORVASTATIN,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ john doe ,35,other,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,male,Heart Disease,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,female,Diabetes,NONE,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Asthma,LISINOPRIL,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,70,male,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Asthma,NONE,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,60,male,Diabetes,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,other,Hypertension,ATORVASTATIN,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ james taylor ,25,other,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,female,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,other,Diabetes,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,25,other,Asthma,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,60,male,Heart Disease,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,female,Diabetes,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ david lee ,35,other,Hypertension,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,NONE,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,ATORVASTATIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,70,male,Heart Disease,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ john doe ,35,other,Asthma,ALBUTEROL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,female,Asthma,NONE,,220.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Diabetes,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,LISINOPRIL,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,male,Heart Disease,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,25,other,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,70,male,Asthma,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,35,other,Diabetes,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Diabetes,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,60,female,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ james taylor ,60,other,Asthma,NONE,,220.0,140.0,90.0,2020.0,1.0
+ robert brown ,60,male,Heart Disease,NONE,,220.0,110.0,70.0,2020.0,1.0
+ john doe ,35,female,Heart Disease,NONE,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,70,female,Asthma,ATORVASTATIN,,180.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,other,Hypertension,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,25,other,Diabetes,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,60,other,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,NONE,,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,male,Heart Disease,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,35,male,Hypertension,LISINOPRIL,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Heart Disease,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,70,female,Asthma,NONE,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Diabetes,ATORVASTATIN,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Diabetes,ALBUTEROL,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,male,Asthma,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,female,Hypertension,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,female,Asthma,NONE,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Hypertension,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Diabetes,NONE,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,other,Diabetes,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,25,other,Heart Disease,NONE,,160.0,130.0,85.0,2020.0,1.0
+ john doe ,25,other,Diabetes,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ laura martinez ,60,other,Asthma,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,female,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,METFORMIN,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ david lee ,70,male,Asthma,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Hypertension,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,METFORMIN,,200.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,male,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,60,female,Hypertension,ATORVASTATIN,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,female,Heart Disease,NONE,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,60,other,Asthma,LISINOPRIL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Asthma,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ john doe ,35,male,Asthma,LISINOPRIL,,160.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,NONE,,200.0,110.0,70.0,2020.0,1.0
+ james taylor ,70,female,Diabetes,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,25,other,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,70,male,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,female,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Heart Disease,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,70,female,Heart Disease,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,male,Asthma,LISINOPRIL,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ david lee ,35,male,Diabetes,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,25,other,Hypertension,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,70,other,Asthma,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ jane smith ,25,male,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,female,Asthma,LISINOPRIL,,160.0,120.0,80.0,2020.0,1.0
+ jane smith ,70,other,Hypertension,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,male,Asthma,NONE,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,female,Asthma,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,other,Hypertension,ALBUTEROL,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,female,Diabetes,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,METFORMIN,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ john doe ,60,female,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,25,female,Heart Disease,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ david lee ,60,other,Diabetes,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Heart Disease,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,other,Diabetes,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ michael wilson ,70,other,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,70,female,Asthma,NONE,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,other,Heart Disease,NONE,,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,60,female,Diabetes,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Asthma,NONE,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,female,Hypertension,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Asthma,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,female,Hypertension,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,25,male,Diabetes,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,other,Asthma,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,70,other,Asthma,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,male,Diabetes,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,25,female,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ jane smith ,25,other,Hypertension,NONE,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,35,male,Asthma,LISINOPRIL,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,other,Heart Disease,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,70,male,Asthma,ALBUTEROL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ david lee ,70,female,Hypertension,ALBUTEROL,,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,70,other,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Diabetes,NONE,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,other,Hypertension,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,25,other,Asthma,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Asthma,NONE,,180.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Diabetes,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Diabetes,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,female,Hypertension,ATORVASTATIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,25,male,Diabetes,NONE,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,25,male,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,25,female,Heart Disease,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,other,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,70,other,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,25,other,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,female,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,other,Heart Disease,NONE,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,other,Heart Disease,METFORMIN,,160.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,other,Diabetes,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,70,male,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,female,Asthma,NONE,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ james taylor ,70,male,Heart Disease,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Asthma,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Heart Disease,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,35,female,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,female,Diabetes,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,other,Asthma,LISINOPRIL,,160.0,110.0,70.0,2020.0,1.0
+ mary clark ,25,male,Hypertension,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Hypertension,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ james taylor ,60,male,Asthma,ALBUTEROL,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,70,female,Asthma,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ mary clark ,25,male,Hypertension,NONE,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,female,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Hypertension,ATORVASTATIN,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ laura martinez ,25,other,Diabetes,NONE,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,other,Asthma,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,other,Heart Disease,NONE,,220.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,70,female,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,other,Diabetes,LISINOPRIL,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ david lee ,70,female,Diabetes,ALBUTEROL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Heart Disease,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,other,Hypertension,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,male,Diabetes,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,35,male,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,70,male,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Hypertension,ALBUTEROL,,160.0,140.0,90.0,2020.0,1.0
+ jane smith ,35,male,Heart Disease,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,25,female,Asthma,LISINOPRIL,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Heart Disease,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,other,Asthma,NONE,,160.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,other,Asthma,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ david lee ,35,female,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,other,Asthma,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,male,Heart Disease,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,35,male,Heart Disease,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ james taylor ,60,female,Diabetes,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,25,male,Diabetes,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,60,female,Asthma,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,male,Diabetes,NONE,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Diabetes,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,70,male,Hypertension,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,NONE,,220.0,140.0,90.0,2020.0,1.0
+ james taylor ,60,female,Diabetes,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,60,female,Hypertension,LISINOPRIL,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,60,female,Asthma,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,female,Asthma,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,other,Diabetes,LISINOPRIL,,220.0,110.0,70.0,2020.0,1.0
+ emily davis ,70,other,Heart Disease,NONE,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,female,Hypertension,METFORMIN,,220.0,110.0,70.0,2020.0,1.0
+ laura martinez ,70,female,Heart Disease,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,other,Hypertension,LISINOPRIL,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ john doe ,25,female,Asthma,ATORVASTATIN,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Hypertension,NONE,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,male,Asthma,LISINOPRIL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,female,Asthma,NONE,,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,male,Hypertension,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Hypertension,ALBUTEROL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Asthma,ALBUTEROL,,200.0,140.0,90.0,2020.0,1.0
+ mary clark ,60,female,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,60,female,Asthma,ALBUTEROL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ laura martinez ,70,other,Asthma,METFORMIN,2020-01-15,160.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,25,male,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Heart Disease,LISINOPRIL,,220.0,120.0,80.0,2020.0,1.0
+ james taylor ,25,female,Asthma,ALBUTEROL,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ john doe ,70,male,Diabetes,ATORVASTATIN,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,other,Diabetes,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,other,Heart Disease,NONE,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,NONE,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,other,Hypertension,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,60,other,Heart Disease,METFORMIN,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ david lee ,35,female,Asthma,NONE,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,other,Asthma,ATORVASTATIN,,160.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Diabetes,NONE,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,70,other,Asthma,METFORMIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,male,Heart Disease,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ david lee ,35,female,Asthma,LISINOPRIL,,220.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,female,Heart Disease,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,25,female,Hypertension,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,male,Diabetes,METFORMIN,,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,25,male,Asthma,NONE,,220.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,female,Heart Disease,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,ALBUTEROL,2020-01-15,220.0,140.0,90.0,2020.0,1.0
+ sarah johnson ,60,female,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,35,male,Hypertension,ATORVASTATIN,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,other,Heart Disease,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,other,Hypertension,ATORVASTATIN,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Hypertension,NONE,,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Asthma,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ john doe ,70,male,Asthma,NONE,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,other,Heart Disease,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,other,Asthma,ATORVASTATIN,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Heart Disease,LISINOPRIL,,200.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,male,Asthma,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,male,Hypertension,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,male,Diabetes,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,male,Heart Disease,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Heart Disease,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,NONE,2020-01-15,200.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,male,Hypertension,NONE,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,other,Hypertension,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,25,female,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,male,Hypertension,METFORMIN,,220.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,other,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ emily davis ,35,female,Diabetes,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ john doe ,70,other,Heart Disease,ALBUTEROL,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,male,Diabetes,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Heart Disease,NONE,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,70,male,Asthma,NONE,,220.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,male,Hypertension,LISINOPRIL,2020-01-15,160.0,120.0,80.0,2020.0,1.0
+ sarah johnson ,35,female,Asthma,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,60,female,Asthma,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ emily davis ,60,other,Diabetes,ALBUTEROL,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,70,male,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ john doe ,60,other,Hypertension,NONE,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,female,Asthma,METFORMIN,,220.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,male,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,70,male,Asthma,METFORMIN,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ mary clark ,35,female,Asthma,METFORMIN,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,60,female,Hypertension,NONE,,160.0,120.0,80.0,2020.0,1.0
+ david lee ,70,female,Heart Disease,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,female,Asthma,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,female,Hypertension,LISINOPRIL,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,35,male,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ jane smith ,70,female,Hypertension,NONE,,200.0,120.0,80.0,2020.0,1.0
+ emily davis ,25,male,Heart Disease,ATORVASTATIN,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ michael wilson ,25,female,Heart Disease,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ james taylor ,25,female,Diabetes,NONE,2020-01-15,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Asthma,NONE,,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,female,Heart Disease,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,female,Asthma,ALBUTEROL,,220.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,60,female,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ david lee ,60,other,Asthma,NONE,,160.0,110.0,70.0,2020.0,1.0
+ robert brown ,25,male,Hypertension,LISINOPRIL,2020-01-15,200.0,110.0,70.0,2020.0,1.0
+ john doe ,35,other,Asthma,LISINOPRIL,,180.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,female,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ jane smith ,60,other,Heart Disease,NONE,,200.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,female,Hypertension,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,other,Heart Disease,NONE,,220.0,130.0,85.0,2020.0,1.0
+ james taylor ,35,female,Diabetes,LISINOPRIL,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,70,other,Diabetes,NONE,,160.0,140.0,90.0,2020.0,1.0
+ robert brown ,70,other,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,60,male,Heart Disease,NONE,,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,male,Asthma,ATORVASTATIN,,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,70,female,Asthma,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ james taylor ,25,other,Heart Disease,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,25,female,Heart Disease,ALBUTEROL,,200.0,120.0,80.0,2020.0,1.0
+ robert brown ,60,female,Diabetes,LISINOPRIL,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,other,Heart Disease,ALBUTEROL,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ michael wilson ,35,male,Hypertension,NONE,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,other,Diabetes,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ robert brown ,25,female,Hypertension,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,25,female,Asthma,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ emily davis ,70,other,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,male,Asthma,METFORMIN,,160.0,140.0,90.0,2020.0,1.0
+ mary clark ,35,male,Asthma,METFORMIN,,220.0,140.0,90.0,2020.0,1.0
+ james taylor ,25,female,Asthma,ALBUTEROL,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ jane smith ,35,female,Heart Disease,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,60,male,Hypertension,ATORVASTATIN,2020-01-15,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,60,other,Asthma,LISINOPRIL,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,female,Diabetes,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,60,male,Hypertension,ALBUTEROL,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,25,female,Diabetes,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,other,Hypertension,NONE,,200.0,130.0,85.0,2020.0,1.0
+ john doe ,35,male,Hypertension,METFORMIN,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Asthma,METFORMIN,,200.0,110.0,70.0,2020.0,1.0
+ john doe ,70,other,Asthma,ATORVASTATIN,,180.0,120.0,80.0,2020.0,1.0
+ james taylor ,35,female,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Hypertension,METFORMIN,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,60,other,Heart Disease,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ david lee ,35,male,Heart Disease,LISINOPRIL,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,other,Diabetes,ATORVASTATIN,,220.0,120.0,80.0,2020.0,1.0
+ michael wilson ,70,female,Diabetes,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,ATORVASTATIN,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ laura martinez ,25,other,Hypertension,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ robert brown ,60,male,Diabetes,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ david lee ,35,other,Diabetes,LISINOPRIL,,160.0,120.0,80.0,2020.0,1.0
+ robert brown ,35,other,Hypertension,NONE,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,60,female,Asthma,NONE,2020-01-15,180.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,25,male,Diabetes,NONE,,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,male,Asthma,LISINOPRIL,,160.0,130.0,85.0,2020.0,1.0
+ david lee ,70,male,Asthma,NONE,,160.0,130.0,85.0,2020.0,1.0
+ robert brown ,60,other,Asthma,NONE,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,60,male,Heart Disease,ATORVASTATIN,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,35,other,Heart Disease,METFORMIN,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,60,other,Asthma,METFORMIN,2020-01-15,220.0,120.0,80.0,2020.0,1.0
+ john doe ,25,female,Heart Disease,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,25,female,Asthma,ATORVASTATIN,2020-01-15,200.0,130.0,85.0,2020.0,1.0
+ david lee ,35,female,Hypertension,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,70,female,Heart Disease,METFORMIN,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Heart Disease,NONE,2020-01-15,180.0,140.0,90.0,2020.0,1.0
+ james taylor ,35,other,Asthma,ATORVASTATIN,,220.0,130.0,85.0,2020.0,1.0
+ john doe ,35,other,Asthma,LISINOPRIL,2020-01-15,200.0,140.0,90.0,2020.0,1.0
+ michael wilson ,60,male,Hypertension,ATORVASTATIN,,200.0,120.0,80.0,2020.0,1.0
+ david lee ,35,other,Asthma,ALBUTEROL,,180.0,120.0,80.0,2020.0,1.0
+ john doe ,35,other,Asthma,ATORVASTATIN,,220.0,140.0,90.0,2020.0,1.0
+ emily davis ,35,female,Asthma,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,70,other,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Asthma,ALBUTEROL,,200.0,130.0,85.0,2020.0,1.0
+ mary clark ,25,male,Hypertension,LISINOPRIL,,220.0,130.0,85.0,2020.0,1.0
+ michael wilson ,35,male,Asthma,NONE,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ mary clark ,60,other,Asthma,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ john doe ,25,male,Asthma,ALBUTEROL,,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,other,Diabetes,ALBUTEROL,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ sarah johnson ,35,male,Heart Disease,LISINOPRIL,,200.0,110.0,70.0,2020.0,1.0
+ emily davis ,35,female,Asthma,METFORMIN,,200.0,140.0,90.0,2020.0,1.0
+ laura martinez ,70,female,Diabetes,ATORVASTATIN,,160.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,female,Heart Disease,ALBUTEROL,,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,70,female,Asthma,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,60,other,Hypertension,NONE,,160.0,120.0,80.0,2020.0,1.0
+ michael wilson ,35,male,Heart Disease,ALBUTEROL,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ emily davis ,35,other,Asthma,LISINOPRIL,,200.0,110.0,70.0,2020.0,1.0
+ jane smith ,35,female,Diabetes,METFORMIN,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ robert brown ,35,other,Heart Disease,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ robert brown ,35,male,Heart Disease,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ emily davis ,60,other,Asthma,ALBUTEROL,,160.0,130.0,85.0,2020.0,1.0
+ emily davis ,25,male,Asthma,ATORVASTATIN,2020-01-15,180.0,120.0,80.0,2020.0,1.0
+ mary clark ,60,other,Hypertension,LISINOPRIL,,200.0,130.0,85.0,2020.0,1.0
+ michael wilson ,70,male,Asthma,ALBUTEROL,,220.0,120.0,80.0,2020.0,1.0
+ emily davis ,60,male,Hypertension,ATORVASTATIN,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,70,female,Asthma,ATORVASTATIN,,160.0,110.0,70.0,2020.0,1.0
+ laura martinez ,35,male,Heart Disease,ALBUTEROL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,25,female,Hypertension,METFORMIN,,200.0,130.0,85.0,2020.0,1.0
+ sarah johnson ,35,female,Diabetes,LISINOPRIL,2020-01-15,180.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,female,Diabetes,LISINOPRIL,2020-01-15,220.0,110.0,70.0,2020.0,1.0
+ david lee ,35,other,Asthma,METFORMIN,,180.0,140.0,90.0,2020.0,1.0
+ mary clark ,70,other,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ mary clark ,35,other,Asthma,LISINOPRIL,2020-01-15,160.0,130.0,85.0,2020.0,1.0
+ laura martinez ,35,other,Asthma,ALBUTEROL,,180.0,110.0,70.0,2020.0,1.0
+ jane smith ,25,male,Asthma,ALBUTEROL,,200.0,110.0,70.0,2020.0,1.0
+ james taylor ,35,male,Diabetes,ATORVASTATIN,,220.0,120.0,80.0,2020.0,1.0
