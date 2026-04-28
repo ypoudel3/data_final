@@ -1,4 +1,4 @@
-Patient Name,Age,Gender,Condition,Medication,Visit Date,Blood Pressure,Cholesterol,Email,Phone Number,systolic,diastolic
+Patient name,Age,Gender,Condition,Medication,Visit date,Blood pressure,Cholesterol,Email,Phone number,Systolic,Diastolic
  David Lee ,25.0,Other,Heart Disease,METFORMIN,2020-01-15,140/90,200.0,name@hospital.org,555-555-5555,140.0,90.0
  Emily Davis ,40.0,Male,Diabetes,No_Medication,2018-04-05,120/80,200.0,Unknown,Unknown,120.0,80.0
  Laura Martinez ,35.0,Other,Asthma,METFORMIN,2019-12-01,110/70,160.0,contact@domain.com,Unknown,110.0,70.0
