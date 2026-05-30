@@ -1,0 +1,901 @@
+patient_name,age,gender,condition,medication,visit_date,cholesterol,systolic,diastolic,visit_year,visit_month
+donna hall,51,female,Diabetes,ATORVASTATIN,2021-06-19,207.7,143.0,90.0,2021,6
+mark young,49,male,Diabetes,METFORMIN,2020-04-06,206.3,109.0,86.0,2020,4
+lisa young,49,male,Hypertension,,2018-05-23,207.5,153.0,95.0,2018,5
+daniel robinson,46,male,Asthma,ALBUTEROL,2022-10-10,203.6,127.0,79.0,2022,10
+robert garcia,49,female,Hypertension,,2018-05-10,199.5,161.0,93.0,2018,5
+paul taylor,66,male,Diabetes,METFORMIN,2023-06-09,206.2,113.0,71.0,2023,6
+edward wilson,62,male,Heart Disease,LISINOPRIL,2021-09-04,240.9,145.0,93.0,2021,9
+ruth hall,61,male,Hypertension,,2019-08-20,199.3,155.0,94.0,2019,8
+anthony thomas,49,male,Heart Disease,ATORVASTATIN,2022-08-16,187.1,144.0,80.0,2022,8
+helen lewis,68,female,Hypertension,LISINOPRIL,2021-07-21,208.5,161.0,103.0,2021,7
+carol allen,49,male,Diabetes,METFORMIN,2022-01-24,192.8,138.0,92.0,2022,1
+george hall,33,female,Asthma,ALBUTEROL,2020-01-17,187.0,120.0,95.0,2020,1
+david taylor,34,male,Asthma,,2022-01-06,205.3,118.0,70.0,2022,1
+helen moore,67,male,Diabetes,METFORMIN,2022-09-11,201.8,135.0,91.0,2022,9
+anthony jackson,49,male,Heart Disease,LISINOPRIL,2019-09-17,238.4,165.0,105.0,2019,9
+george thomas,48,female,Diabetes,METFORMIN,2019-10-03,264.9,125.0,80.0,2019,10
+karen garcia,72,male,Heart Disease,LISINOPRIL,2022-02-16,209.6,135.0,71.0,2022,2
+kevin white,43,male,Asthma,,2023-04-14,176.4,122.0,79.0,2023,4
+laura robinson,54,male,Diabetes,METFORMIN,2019-09-22,221.5,148.0,79.0,2019,9
+ruth robinson,55,other,Diabetes,METFORMIN,2023-06-26,206.2,136.0,87.0,2023,6
+nancy robinson,33,female,Hypertension,NONE,2018-02-12,214.0,136.0,87.0,2018,2
+sarah martinez,56,female,Hypertension,LISINOPRIL,2019-06-15,225.6,136.0,87.0,2019,6
+nancy wilson,46,female,Heart Disease,LISINOPRIL,2019-04-16,210.4,138.0,91.0,2019,4
+laura white,23,female,Asthma,,2020-04-28,172.0,104.0,77.0,2020,4
+susan garcia,77,female,Heart Disease,LISINOPRIL,2023-05-05,204.0,150.0,95.0,2023,5
+brian martinez,49,female,Hypertension,,2018-07-19,220.7,129.0,114.0,2018,7
+laura thomas,73,male,Heart Disease,LISINOPRIL,2020-06-05,197.3,139.0,98.0,2020,6
+sandra harris,49,other,Diabetes,METFORMIN,2018-01-06,228.4,141.0,83.0,2018,1
+michael wilson,42,female,Asthma,ALBUTEROL,2018-07-18,174.5,109.0,76.0,2018,7
+george anderson,72,other,Heart Disease,LISINOPRIL,2019-09-11,268.2,145.0,88.0,2019,9
+ruth taylor,55,male,Heart Disease,LISINOPRIL,2019-07-23,229.0,168.0,79.0,2019,7
+charles lewis,44,male,Asthma,ALBUTEROL,2018-10-17,179.1,122.0,74.0,2018,10
+sarah garcia,46,female,Hypertension,NONE,2020-07-10,215.3,161.0,92.0,2020,7
+michael hall,33,male,Asthma,,2022-09-13,158.0,118.0,83.0,2022,9
+donna lewis,37,other,Asthma,ALBUTEROL,2021-03-27,168.7,118.0,77.0,2021,3
+laura moore,49,male,Asthma,ALBUTEROL,2018-07-26,180.0,125.0,68.0,2018,7
+betty thomas,44,female,Hypertension,LISINOPRIL,2022-12-24,197.0,167.0,92.0,2022,12
+donna taylor,41,male,Diabetes,METFORMIN,2021-08-27,204.6,137.0,91.0,2021,8
+mark hall,49,female,Hypertension,NONE,2018-04-13,200.9,169.0,79.0,2018,4
+daniel taylor,32,male,Asthma,,2021-08-09,186.6,137.0,67.0,2021,8
+sarah anderson,61,female,Heart Disease,ATORVASTATIN,2019-09-21,320.0,157.0,94.0,2019,9
+donna davis,36,male,Hypertension,,2019-09-04,206.2,163.0,96.0,2019,9
+anthony moore,73,male,Diabetes,METFORMIN,2020-01-23,203.0,129.0,96.0,2020,1
+james white,57,male,Diabetes,ATORVASTATIN,2021-02-19,229.6,123.0,76.0,2021,2
+carol thomas,48,male,Heart Disease,ATORVASTATIN,2022-09-14,259.9,136.0,104.0,2022,9
+lisa young,58,male,Heart Disease,LISINOPRIL,2021-05-02,215.6,150.0,98.0,2021,5
+kevin harris,42,female,Hypertension,NONE,2023-08-19,195.5,152.0,92.0,2023,8
+brian thompson,22,female,Hypertension,LISINOPRIL,2020-10-15,206.2,152.0,112.0,2020,10
+betty lee,58,female,Heart Disease,LISINOPRIL,2018-03-24,248.0,104.0,111.0,2018,3
+sharon garcia,35,other,Hypertension,LISINOPRIL,2023-05-23,188.3,176.0,98.0,2023,5
+james anderson,47,female,Hypertension,,2020-09-14,198.5,150.0,107.0,2020,9
+emily hall,47,female,Diabetes,METFORMIN,2018-12-26,241.5,136.0,87.0,2018,12
+emily moore,59,other,Diabetes,METFORMIN,2023-09-03,191.3,146.0,71.0,2023,9
+ruth hall,31,female,Hypertension,NONE,2018-07-23,188.9,138.0,86.0,2018,7
+karen robinson,76,female,Hypertension,NONE,2020-01-20,211.2,141.0,100.0,2020,1
+daniel garcia,28,male,Diabetes,ATORVASTATIN,2019-10-06,206.2,157.0,90.0,2019,10
+susan martin,63,female,Heart Disease,ATORVASTATIN,2019-10-11,258.9,155.0,89.0,2019,10
+sandra martin,32,male,Hypertension,,2018-07-27,232.2,136.0,87.0,2018,7
+kenneth wilson,43,male,Diabetes,ATORVASTATIN,2022-10-06,228.0,121.0,71.0,2022,10
+ruth lewis,49,male,Hypertension,,2018-03-25,203.9,167.0,104.0,2018,3
+helen allen,18,female,Asthma,NONE,2023-02-28,184.8,116.0,75.0,2023,2
+ruth wilson,40,male,Asthma,ALBUTEROL,2018-01-24,208.0,119.0,68.0,2018,1
+james lewis,59,female,Heart Disease,LISINOPRIL,2023-06-14,206.2,157.0,96.0,2023,6
+kenneth martinez,63,male,Heart Disease,LISINOPRIL,2021-05-25,226.5,154.0,86.0,2021,5
+helen thompson,42,female,Heart Disease,ATORVASTATIN,2022-07-19,206.2,136.0,87.0,2022,7
+laura davis,28,male,Asthma,ALBUTEROL,2018-01-28,194.1,107.0,82.0,2018,1
+charles garcia,51,male,Heart Disease,ATORVASTATIN,2020-02-24,256.0,138.0,92.0,2020,2
+charles allen,49,male,Diabetes,ATORVASTATIN,2020-06-14,230.4,131.0,74.0,2020,6
+emily jackson,54,female,Hypertension,LISINOPRIL,2019-04-02,175.2,144.0,96.0,2019,4
+paul garcia,55,male,Diabetes,ATORVASTATIN,2020-11-11,179.3,125.0,89.0,2020,11
+sandra walker,58,male,Hypertension,LISINOPRIL,2023-10-06,210.4,159.0,86.0,2023,10
+sandra harris,32,female,Hypertension,LISINOPRIL,2018-02-23,204.4,154.0,107.0,2018,2
+mark walker,50,female,Diabetes,METFORMIN,2023-11-15,230.2,127.0,80.0,2023,11
+karen moore,21,male,Asthma,ALBUTEROL,2022-04-07,189.8,108.0,80.0,2022,4
+david davis,57,male,Heart Disease,ATORVASTATIN,2022-05-19,261.7,125.0,87.0,2022,5
+ronald harris,57,male,Hypertension,,2022-06-21,223.7,171.0,103.0,2022,6
+robert taylor,67,male,Diabetes,METFORMIN,2023-07-18,211.3,143.0,86.0,2023,7
+nancy harris,54,male,Diabetes,ATORVASTATIN,2022-03-08,204.0,128.0,93.0,2022,3
+george garcia,42,female,Asthma,,2022-10-27,190.1,120.0,78.0,2022,10
+charles lee,52,female,Diabetes,ATORVASTATIN,2020-06-02,207.5,136.0,87.0,2020,6
+david hall,50,male,Diabetes,METFORMIN,2019-04-08,183.4,130.0,76.0,2019,4
+nancy martinez,28,female,Asthma,,2020-02-20,188.0,113.0,72.0,2020,2
+george thompson,31,female,Asthma,NONE,2022-07-19,214.0,126.0,70.0,2022,7
+ronald hall,49,female,Hypertension,,2023-10-20,193.0,146.0,99.0,2023,10
+michael hall,37,other,Diabetes,ATORVASTATIN,2022-04-27,203.3,129.0,79.0,2022,4
+emily jackson,38,female,Hypertension,LISINOPRIL,2020-03-02,187.1,152.0,91.0,2020,3
+anthony allen,45,male,Diabetes,ATORVASTATIN,2022-10-23,212.5,128.0,74.0,2022,10
+david thomas,63,male,Heart Disease,ATORVASTATIN,2022-01-24,221.0,142.0,98.0,2022,1
+kenneth anderson,57,male,Diabetes,ATORVASTATIN,2019-09-03,245.6,130.0,88.0,2019,9
+george martinez,44,other,Hypertension,,2020-12-14,211.0,151.0,76.0,2020,12
+mark hall,49,female,Heart Disease,ATORVASTATIN,2022-11-15,225.2,158.0,94.0,2022,11
+sandra jackson,44,female,Heart Disease,ATORVASTATIN,2023-10-14,227.9,159.0,95.0,2023,10
+ronald davis,47,female,Hypertension,LISINOPRIL,2018-03-03,224.2,136.0,87.0,2018,3
+ruth anderson,64,female,Heart Disease,ATORVASTATIN,2021-05-16,235.5,143.0,97.0,2021,5
+betty martin,31,female,Asthma,ALBUTEROL,2022-07-18,207.4,111.0,81.0,2022,7
+emily thompson,49,male,Heart Disease,LISINOPRIL,2018-11-08,259.8,129.0,97.0,2018,11
+emily thomas,40,female,Asthma,NONE,2019-05-01,182.7,129.0,73.0,2019,5
+emily allen,60,female,Heart Disease,ATORVASTATIN,2021-07-09,212.9,136.0,87.0,2021,7
+carol moore,50,female,Hypertension,,2018-09-01,174.8,153.0,88.0,2018,9
+sharon garcia,35,female,Asthma,NONE,2023-12-04,174.5,125.0,68.0,2023,12
+jessica young,64,male,Heart Disease,ATORVASTATIN,2023-08-19,239.9,129.0,97.0,2023,8
+robert allen,49,female,Hypertension,,2020-11-28,183.6,164.0,86.0,2020,11
+karen garcia,18,female,Asthma,ALBUTEROL,2023-05-10,190.0,136.0,87.0,2023,5
+ronald harris,51,male,Asthma,,2022-01-05,188.8,128.0,76.0,2022,1
+michael walker,33,female,Asthma,,2018-08-05,175.2,122.0,77.0,2018,8
+laura davis,55,male,Hypertension,,2020-09-18,204.5,136.0,87.0,2020,9
+jessica thompson,45,male,Heart Disease,ATORVASTATIN,2020-08-05,255.3,156.0,89.0,2020,8
+betty walker,18,male,Asthma,,2020-05-22,189.5,126.0,66.0,2020,5
+edward martinez,33,female,Hypertension,,2021-09-21,207.7,165.0,93.0,2021,9
+edward taylor,37,female,Hypertension,LISINOPRIL,2021-12-25,250.5,151.0,82.0,2021,12
+james jackson,23,female,Asthma,ALBUTEROL,2023-02-09,196.2,104.0,70.0,2023,2
+betty jackson,41,male,Diabetes,METFORMIN,2019-10-15,213.3,136.0,67.0,2019,10
+ronald thomas,60,male,Heart Disease,LISINOPRIL,2021-10-02,238.6,151.0,91.0,2021,10
+sandra walker,57,male,Hypertension,NONE,2018-11-17,195.4,171.0,103.0,2018,11
+betty davis,18,male,Asthma,,2023-09-10,190.7,90.0,65.0,2023,9
+mark lee,28,female,Asthma,,2019-07-26,169.5,136.0,77.0,2019,7
+betty garcia,56,male,Diabetes,ATORVASTATIN,2020-10-25,178.8,134.0,99.0,2020,10
+sandra lee,42,male,Diabetes,METFORMIN,2023-07-03,213.5,125.0,76.0,2023,7
+carol walker,42,female,Asthma,,2020-12-15,179.9,126.0,69.0,2020,12
+paul taylor,66,female,Heart Disease,LISINOPRIL,2021-05-21,237.7,157.0,92.0,2021,5
+laura taylor,49,female,Diabetes,ATORVASTATIN,2018-08-14,208.6,128.0,74.0,2018,8
+nancy garcia,59,female,Heart Disease,ATORVASTATIN,2023-07-25,255.4,160.0,94.0,2023,7
+michael jackson,69,male,Diabetes,METFORMIN,2021-05-14,219.8,132.0,77.0,2021,5
+donna hall,48,male,Hypertension,,2018-01-08,206.2,157.0,98.0,2018,1
+daniel martinez,43,male,Hypertension,,2022-06-12,209.9,176.0,102.0,2022,6
+george jackson,49,male,Hypertension,LISINOPRIL,2018-07-27,199.8,177.0,95.0,2018,7
+karen taylor,40,male,Asthma,ALBUTEROL,2018-07-11,183.5,112.0,71.0,2018,7
+mark lee,70,female,Heart Disease,LISINOPRIL,2023-05-14,254.6,152.0,96.0,2023,5
+daniel moore,40,female,Hypertension,LISINOPRIL,2022-07-07,187.6,159.0,96.0,2022,7
+ruth jackson,49,female,Diabetes,ATORVASTATIN,2020-01-24,208.9,121.0,88.0,2020,1
+sandra taylor,54,female,Heart Disease,LISINOPRIL,2021-02-13,262.0,144.0,91.0,2021,2
+helen lee,55,female,Heart Disease,LISINOPRIL,2020-04-20,251.8,140.0,94.0,2020,4
+mark hall,42,male,Diabetes,METFORMIN,2021-05-04,233.0,126.0,84.0,2021,5
+lisa anderson,22,female,Asthma,ALBUTEROL,2020-07-07,177.1,110.0,75.0,2020,7
+edward moore,51,male,Hypertension,LISINOPRIL,2019-06-10,206.2,136.0,87.0,2019,6
+mark walker,46,male,Hypertension,NONE,2023-07-21,181.9,183.0,106.0,2023,7
+betty wilson,18,female,Asthma,NONE,2023-02-01,194.8,109.0,84.0,2023,2
+sarah thompson,49,male,Heart Disease,LISINOPRIL,2022-05-04,272.6,154.0,106.0,2022,5
+ruth robinson,69,male,Heart Disease,LISINOPRIL,2021-08-23,303.5,148.0,92.0,2021,8
+emily thompson,40,female,Diabetes,ATORVASTATIN,2022-02-02,210.2,128.0,95.0,2022,2
+helen lee,47,male,Diabetes,METFORMIN,2021-09-12,226.1,124.0,88.0,2021,9
+susan jackson,65,male,Heart Disease,LISINOPRIL,2023-12-17,221.6,145.0,89.0,2023,12
+lisa allen,37,female,Asthma,,2023-07-21,163.2,128.0,83.0,2023,7
+laura anderson,49,female,Diabetes,METFORMIN,2018-07-24,236.0,122.0,87.0,2018,7
+edward wilson,54,female,Heart Disease,ATORVASTATIN,2019-06-18,225.8,144.0,92.0,2019,6
+robert harris,48,female,Diabetes,ATORVASTATIN,2018-06-16,202.0,132.0,86.0,2018,6
+karen allen,33,female,Asthma,ALBUTEROL,2019-12-08,179.1,119.0,71.0,2019,12
+george moore,39,female,Diabetes,ATORVASTATIN,2023-04-11,225.5,123.0,84.0,2023,4
+helen lee,46,male,Diabetes,METFORMIN,2019-03-04,189.3,129.0,84.0,2019,3
+sarah thomas,49,female,Heart Disease,ATORVASTATIN,2023-10-13,225.0,142.0,94.0,2023,10
+sandra thompson,49,other,Asthma,,2018-06-03,206.2,118.0,68.0,2018,6
+susan garcia,61,male,Hypertension,NONE,2022-06-11,211.4,142.0,99.0,2022,6
+kenneth lee,49,male,Asthma,,2021-08-09,184.6,120.0,70.0,2021,8
+sharon taylor,52,other,Heart Disease,LISINOPRIL,2023-02-01,261.7,107.0,95.0,2023,2
+michael allen,31,male,Asthma,,2019-07-09,179.3,125.0,65.0,2019,7
+nancy young,50,female,Diabetes,METFORMIN,2022-09-22,206.2,145.0,89.0,2022,9
+george davis,45,female,Diabetes,ATORVASTATIN,2020-04-16,211.9,136.0,87.0,2020,4
+daniel white,60,male,Heart Disease,LISINOPRIL,2019-12-25,243.4,150.0,89.0,2019,12
+mark davis,56,female,Heart Disease,LISINOPRIL,2021-09-11,253.4,136.0,87.0,2021,9
+kevin anderson,57,female,Diabetes,METFORMIN,2023-08-16,256.2,139.0,90.0,2023,8
+sharon young,62,female,Heart Disease,ATORVASTATIN,2022-09-10,205.7,139.0,74.0,2022,9
+edward martinez,43,male,Asthma,,2019-03-20,206.2,112.0,77.0,2019,3
+charles jackson,51,female,Heart Disease,ATORVASTATIN,2020-07-22,223.4,152.0,94.0,2020,7
+charles thompson,50,male,Hypertension,,2019-06-26,163.4,154.0,100.0,2019,6
+charles martin,49,male,Diabetes,METFORMIN,2022-12-23,202.5,124.0,76.0,2022,12
+sharon harris,49,male,Heart Disease,LISINOPRIL,2023-03-01,212.9,149.0,106.0,2023,3
+sharon lee,39,other,Asthma,ALBUTEROL,2020-12-15,204.3,126.0,75.0,2020,12
+carol anderson,54,female,Diabetes,METFORMIN,2020-10-07,206.2,128.0,83.0,2020,10
+charles lee,50,female,Heart Disease,LISINOPRIL,2019-08-20,227.2,149.0,94.0,2019,8
+carol walker,24,male,Asthma,ALBUTEROL,2023-11-12,180.1,129.0,87.0,2023,11
+helen white,46,female,Asthma,,2023-05-22,169.1,116.0,84.0,2023,5
+sharon wilson,75,male,Hypertension,,2020-01-13,193.4,178.0,96.0,2020,1
+kenneth garcia,58,male,Heart Disease,ATORVASTATIN,2019-03-13,246.0,154.0,82.0,2019,3
+anthony wilson,54,male,Asthma,ALBUTEROL,2019-07-25,223.2,114.0,64.0,2019,7
+carol young,49,female,Asthma,ALBUTEROL,2018-06-10,162.5,109.0,72.0,2018,6
+donna jackson,62,female,Asthma,,2022-08-03,169.5,136.0,87.0,2022,8
+susan wilson,74,female,Heart Disease,ATORVASTATIN,2019-01-19,290.6,135.0,96.0,2019,1
+betty jackson,47,male,Hypertension,LISINOPRIL,2019-03-27,206.2,169.0,91.0,2019,3
+ruth thompson,61,male,Diabetes,METFORMIN,2020-10-01,223.9,139.0,89.0,2020,10
+karen taylor,30,other,Hypertension,LISINOPRIL,2022-12-16,193.3,153.0,90.0,2022,12
+daniel anderson,29,male,Asthma,ALBUTEROL,2020-01-18,187.1,99.0,77.0,2020,1
+mark davis,29,male,Hypertension,LISINOPRIL,2019-10-26,214.7,141.0,109.0,2019,10
+emily garcia,36,female,Asthma,,2018-01-24,178.0,136.0,87.0,2018,1
+susan young,43,male,Heart Disease,LISINOPRIL,2020-10-25,215.8,151.0,92.0,2020,10
+nancy robinson,45,other,Diabetes,METFORMIN,2022-08-23,226.2,131.0,80.0,2022,8
+lisa thomas,42,female,Diabetes,METFORMIN,2021-12-17,246.5,112.0,73.0,2021,12
+brian thompson,67,female,Hypertension,,2018-11-10,176.1,174.0,89.0,2018,11
+charles thompson,40,male,Asthma,NONE,2023-11-04,179.0,126.0,82.0,2023,11
+ruth garcia,54,female,Heart Disease,LISINOPRIL,2019-09-01,243.7,151.0,101.0,2019,9
+paul garcia,45,male,Asthma,NONE,2018-01-04,177.7,116.0,71.0,2018,1
+helen davis,43,female,Diabetes,ATORVASTATIN,2019-06-20,193.4,127.0,75.0,2019,6
+edward garcia,35,female,Asthma,NONE,2020-12-15,165.6,131.0,82.0,2020,12
+robert lewis,34,male,Hypertension,LISINOPRIL,2023-10-23,181.4,137.0,89.0,2023,10
+edward allen,60,male,Heart Disease,LISINOPRIL,2021-07-09,224.5,133.0,79.0,2021,7
+lisa taylor,49,male,Hypertension,LISINOPRIL,2020-01-15,145.7,136.0,87.0,2020,1
+emily white,58,female,Diabetes,ATORVASTATIN,2023-12-21,221.6,137.0,90.0,2023,12
+sandra thompson,46,male,Heart Disease,ATORVASTATIN,2020-07-08,280.0,136.0,87.0,2020,7
+edward robinson,44,male,Asthma,,2022-10-20,191.7,104.0,79.0,2022,10
+sandra martinez,27,male,Hypertension,NONE,2018-06-17,146.0,136.0,97.0,2018,6
+paul martinez,63,male,Heart Disease,ATORVASTATIN,2018-02-27,216.4,135.0,99.0,2018,2
+robert lee,52,female,Hypertension,LISINOPRIL,2018-11-27,175.5,170.0,98.0,2018,11
+robert martin,48,female,Asthma,NONE,2022-07-14,194.1,99.0,77.0,2022,7
+george allen,48,male,Asthma,,2021-08-02,175.0,120.0,67.0,2021,8
+charles thomas,55,other,Hypertension,,2019-05-22,191.9,168.0,91.0,2019,5
+kenneth anderson,70,other,Hypertension,LISINOPRIL,2020-05-02,189.6,173.0,96.0,2020,5
+daniel martin,25,female,Asthma,ALBUTEROL,2023-04-07,178.8,136.0,87.0,2023,4
+sandra harris,32,male,Asthma,NONE,2019-04-15,162.9,122.0,61.0,2019,4
+james thompson,72,female,Hypertension,LISINOPRIL,2023-03-26,208.6,154.0,87.0,2023,3
+charles martinez,18,male,Asthma,NONE,2019-03-06,186.0,120.0,71.0,2019,3
+jessica martinez,55,female,Heart Disease,LISINOPRIL,2018-06-17,234.0,135.0,84.0,2018,6
+ronald thompson,57,male,Heart Disease,LISINOPRIL,2022-07-11,230.6,133.0,90.0,2022,7
+emily young,25,female,Asthma,ALBUTEROL,2022-12-13,187.2,117.0,77.0,2022,12
+daniel thomas,21,female,Asthma,ALBUTEROL,2018-03-24,206.2,141.0,68.0,2018,3
+ronald garcia,50,male,Heart Disease,LISINOPRIL,2019-06-03,242.7,151.0,94.0,2019,6
+sarah moore,21,female,Asthma,ALBUTEROL,2022-05-16,156.4,117.0,70.0,2022,5
+robert lewis,66,male,Hypertension,NONE,2022-09-22,210.5,155.0,97.0,2022,9
+kevin robinson,44,female,Heart Disease,LISINOPRIL,2019-05-15,278.3,161.0,96.0,2019,5
+sharon lewis,65,female,Heart Disease,ATORVASTATIN,2020-10-17,203.6,134.0,89.0,2020,10
+helen martin,57,female,Heart Disease,LISINOPRIL,2023-03-20,245.1,135.0,95.0,2023,3
+karen lee,57,female,Asthma,ALBUTEROL,2020-02-13,192.0,123.0,92.0,2020,2
+david moore,26,female,Asthma,NONE,2020-04-02,189.7,117.0,88.0,2020,4
+donna davis,58,male,Diabetes,ATORVASTATIN,2018-01-12,210.7,111.0,80.0,2018,1
+paul white,65,male,Heart Disease,ATORVASTATIN,2019-12-06,243.8,148.0,102.0,2019,12
+kenneth martinez,42,male,Diabetes,METFORMIN,2018-06-07,197.9,131.0,96.0,2018,6
+david hall,43,male,Diabetes,ATORVASTATIN,2021-06-06,220.5,129.0,88.0,2021,6
+karen moore,51,male,Diabetes,ATORVASTATIN,2019-05-08,214.2,122.0,100.0,2019,5
+laura moore,46,male,Hypertension,,2022-11-04,199.0,136.0,87.0,2022,11
+emily harris,51,male,Diabetes,ATORVASTATIN,2020-10-06,201.9,136.0,94.0,2020,10
+ronald hall,55,male,Asthma,ALBUTEROL,2022-03-09,162.0,124.0,74.0,2022,3
+brian harris,24,male,Asthma,,2020-01-24,171.9,134.0,76.0,2020,1
+betty harris,41,female,Asthma,ALBUTEROL,2021-03-23,211.0,127.0,78.0,2021,3
+helen jackson,49,male,Diabetes,ATORVASTATIN,2019-01-05,250.6,127.0,71.0,2019,1
+kevin jackson,42,male,Hypertension,LISINOPRIL,2018-12-01,167.8,166.0,80.0,2018,12
+susan young,58,male,Diabetes,ATORVASTATIN,2023-11-21,206.2,151.0,85.0,2023,11
+brian lewis,44,female,Hypertension,LISINOPRIL,2021-10-01,206.2,136.0,110.0,2021,10
+charles thomas,56,female,Hypertension,LISINOPRIL,2019-02-06,181.5,155.0,98.0,2019,2
+betty garcia,28,male,Asthma,,2023-11-18,202.2,98.0,71.0,2023,11
+david martin,50,male,Heart Disease,ATORVASTATIN,2020-02-28,206.2,149.0,90.0,2020,2
+james thomas,42,female,Asthma,,2023-08-27,206.2,122.0,73.0,2023,8
+brian young,47,female,Hypertension,LISINOPRIL,2020-06-10,199.0,145.0,91.0,2020,6
+jessica lee,62,male,Heart Disease,LISINOPRIL,2023-04-09,289.9,138.0,106.0,2023,4
+michael garcia,63,female,Diabetes,METFORMIN,2022-08-25,215.4,136.0,87.0,2022,8
+karen lee,49,female,Hypertension,NONE,2018-10-08,196.4,167.0,97.0,2018,10
+charles white,49,male,Asthma,ALBUTEROL,2019-02-07,199.3,99.0,71.0,2019,2
+ronald jackson,64,female,Diabetes,ATORVASTATIN,2021-05-19,206.2,127.0,81.0,2021,5
+sandra hall,33,male,Asthma,ALBUTEROL,2023-03-26,176.3,99.0,79.0,2023,3
+susan young,49,female,Hypertension,,2019-01-16,217.6,148.0,110.0,2019,1
+donna garcia,49,male,Hypertension,,2023-01-21,206.2,146.0,105.0,2023,1
+charles taylor,55,male,Heart Disease,LISINOPRIL,2022-03-16,238.0,167.0,89.0,2022,3
+kenneth lee,48,female,Hypertension,LISINOPRIL,2022-03-04,179.9,143.0,93.0,2022,3
+betty taylor,62,female,Heart Disease,LISINOPRIL,2018-07-23,277.4,157.0,97.0,2018,7
+michael allen,62,male,Diabetes,ATORVASTATIN,2018-04-17,231.9,144.0,82.0,2018,4
+helen anderson,46,male,Hypertension,LISINOPRIL,2021-10-03,209.3,140.0,84.0,2021,10
+jessica hall,85,male,Heart Disease,ATORVASTATIN,2022-05-24,210.2,136.0,95.0,2022,5
+lisa hall,58,female,Hypertension,,2019-07-08,202.8,174.0,89.0,2019,7
+laura davis,42,female,Asthma,ALBUTEROL,2018-11-02,159.0,119.0,73.0,2018,11
+kenneth walker,44,female,Hypertension,LISINOPRIL,2019-06-04,213.6,155.0,88.0,2019,6
+robert allen,59,female,Asthma,ALBUTEROL,2020-03-16,197.4,119.0,73.0,2020,3
+george robinson,37,other,Asthma,,2018-12-04,204.8,140.0,72.0,2018,12
+robert robinson,35,male,Hypertension,LISINOPRIL,2021-09-01,245.9,142.0,97.0,2021,9
+anthony robinson,23,male,Asthma,,2020-04-03,171.7,128.0,74.0,2020,4
+sarah jackson,42,female,Hypertension,NONE,2019-06-11,203.3,149.0,81.0,2019,6
+karen hall,49,male,Asthma,ALBUTEROL,2019-02-16,202.7,115.0,74.0,2019,2
+emily harris,50,female,Hypertension,,2021-09-20,174.8,164.0,98.0,2021,9
+david white,49,male,Diabetes,ATORVASTATIN,2022-07-20,228.3,124.0,88.0,2022,7
+kenneth thomas,75,other,Heart Disease,LISINOPRIL,2020-03-06,213.7,150.0,89.0,2020,3
+jessica lee,36,female,Asthma,ALBUTEROL,2018-07-02,206.2,127.0,73.0,2018,7
+betty thompson,28,male,Asthma,,2020-04-07,172.8,122.0,82.0,2020,4
+emily martinez,36,female,Asthma,,2022-03-20,154.9,120.0,69.0,2022,3
+ruth thomas,42,female,Asthma,NONE,2021-04-01,185.0,120.0,80.0,2021,4
+betty jackson,49,male,Diabetes,METFORMIN,2022-05-13,211.7,125.0,102.0,2022,5
+laura thompson,64,male,Heart Disease,LISINOPRIL,2021-02-06,219.8,137.0,101.0,2021,2
+sharon martinez,33,male,Asthma,,2019-08-22,206.2,131.0,62.0,2019,8
+ruth walker,48,female,Hypertension,,2018-11-20,192.7,149.0,88.0,2018,11
+sarah walker,39,female,Diabetes,ATORVASTATIN,2023-03-17,238.2,158.0,86.0,2023,3
+daniel wilson,28,female,Asthma,ALBUTEROL,2019-01-10,171.7,117.0,78.0,2019,1
+donna harris,49,female,Diabetes,ATORVASTATIN,2020-10-10,209.8,130.0,84.0,2020,10
+jessica wilson,49,female,Heart Disease,ATORVASTATIN,2022-02-04,197.2,138.0,101.0,2022,2
+edward harris,66,male,Heart Disease,LISINOPRIL,2020-03-06,254.7,143.0,93.0,2020,3
+anthony davis,49,female,Diabetes,ATORVASTATIN,2019-07-06,206.2,120.0,84.0,2019,7
+nancy moore,70,female,Heart Disease,ATORVASTATIN,2019-03-17,232.0,153.0,81.0,2019,3
+paul martinez,53,male,Heart Disease,LISINOPRIL,2018-11-09,246.4,136.0,87.0,2018,11
+sharon davis,61,female,Hypertension,,2020-01-14,204.9,152.0,98.0,2020,1
+sharon davis,40,male,Asthma,NONE,2021-08-11,191.7,123.0,75.0,2021,8
+donna thomas,59,other,Heart Disease,LISINOPRIL,2023-07-03,249.2,134.0,94.0,2023,7
+karen white,60,female,Hypertension,LISINOPRIL,2020-08-14,192.4,161.0,101.0,2020,8
+laura anderson,18,male,Asthma,,2020-03-26,182.4,112.0,78.0,2020,3
+susan lewis,55,female,Hypertension,LISINOPRIL,2023-08-21,219.0,149.0,97.0,2023,8
+helen martinez,59,male,Heart Disease,ATORVASTATIN,2023-04-11,257.9,137.0,86.0,2023,4
+anthony thompson,43,female,Diabetes,ATORVASTATIN,2023-06-12,197.7,113.0,88.0,2023,6
+karen young,64,female,Heart Disease,ATORVASTATIN,2018-01-06,218.2,146.0,84.0,2018,1
+sharon allen,43,female,Asthma,ALBUTEROL,2022-03-17,179.4,119.0,81.0,2022,3
+sarah moore,53,female,Diabetes,METFORMIN,2020-10-17,153.7,117.0,97.0,2020,10
+david harris,59,female,Diabetes,METFORMIN,2018-09-22,234.6,142.0,96.0,2018,9
+sharon allen,48,female,Diabetes,METFORMIN,2023-04-04,187.8,115.0,78.0,2023,4
+ronald martinez,60,male,Heart Disease,ATORVASTATIN,2022-06-07,201.1,129.0,92.0,2022,6
+edward jackson,45,other,Hypertension,LISINOPRIL,2020-02-08,206.2,174.0,102.0,2020,2
+ruth lee,48,male,Diabetes,ATORVASTATIN,2018-04-07,198.6,140.0,81.0,2018,4
+nancy lee,28,male,Hypertension,NONE,2021-07-19,186.9,151.0,91.0,2021,7
+edward harris,49,male,Diabetes,ATORVASTATIN,2023-12-25,195.8,120.0,85.0,2023,12
+ruth lewis,49,female,Hypertension,NONE,2020-01-06,164.5,154.0,104.0,2020,1
+david white,49,female,Diabetes,ATORVASTATIN,2022-02-15,238.0,122.0,83.0,2022,2
+brian martinez,54,female,Diabetes,METFORMIN,2020-06-05,227.0,133.0,78.0,2020,6
+susan moore,53,male,Asthma,ALBUTEROL,2022-05-19,187.0,117.0,77.0,2022,5
+lisa wilson,40,male,Asthma,ALBUTEROL,2020-06-28,206.7,117.0,74.0,2020,6
+lisa moore,47,female,Hypertension,LISINOPRIL,2020-03-26,179.2,173.0,95.0,2020,3
+donna wilson,45,male,Diabetes,ATORVASTATIN,2021-04-08,204.5,119.0,85.0,2021,4
+michael harris,36,female,Hypertension,LISINOPRIL,2021-02-07,181.6,150.0,88.0,2021,2
+sandra hall,82,female,Hypertension,LISINOPRIL,2021-09-14,197.8,136.0,87.0,2021,9
+jessica jackson,69,female,Heart Disease,LISINOPRIL,2022-12-05,260.5,151.0,83.0,2022,12
+carol hall,50,male,Asthma,NONE,2021-05-26,206.2,136.0,87.0,2021,5
+emily thompson,47,male,Diabetes,METFORMIN,2022-01-17,229.8,118.0,77.0,2022,1
+george wilson,49,female,Heart Disease,ATORVASTATIN,2021-08-26,217.6,118.0,96.0,2021,8
+carol anderson,66,male,Heart Disease,LISINOPRIL,2020-06-05,215.0,149.0,97.0,2020,6
+karen allen,30,female,Asthma,ALBUTEROL,2022-06-24,186.4,102.0,78.0,2022,6
+helen allen,38,female,Heart Disease,ATORVASTATIN,2018-03-17,287.0,143.0,96.0,2018,3
+donna thompson,46,male,Diabetes,ATORVASTATIN,2020-03-24,201.1,136.0,87.0,2020,3
+jessica allen,59,male,Heart Disease,ATORVASTATIN,2019-07-24,250.1,139.0,85.0,2019,7
+karen martinez,49,female,Asthma,NONE,2020-05-04,182.5,136.0,87.0,2020,5
+james martinez,35,male,Asthma,ALBUTEROL,2023-11-18,206.2,124.0,81.0,2023,11
+david jackson,57,female,Heart Disease,ATORVASTATIN,2020-01-08,216.4,156.0,95.0,2020,1
+sandra white,30,female,Asthma,ALBUTEROL,2023-03-19,176.2,117.0,77.0,2023,3
+anthony white,47,female,Heart Disease,LISINOPRIL,2019-08-19,222.6,132.0,97.0,2019,8
+robert robinson,38,female,Diabetes,ATORVASTATIN,2018-10-16,244.2,130.0,89.0,2018,10
+robert moore,78,male,Diabetes,METFORMIN,2023-03-08,209.7,115.0,79.0,2023,3
+mark anderson,48,female,Asthma,ALBUTEROL,2020-12-05,184.2,108.0,72.0,2020,12
+betty thomas,49,male,Asthma,NONE,2018-11-25,187.9,127.0,61.0,2018,11
+jessica wilson,67,male,Diabetes,METFORMIN,2019-12-27,223.0,122.0,82.0,2019,12
+betty harris,65,male,Hypertension,LISINOPRIL,2018-01-13,205.4,152.0,104.0,2018,1
+mark walker,52,male,Heart Disease,LISINOPRIL,2021-04-12,264.7,159.0,104.0,2021,4
+betty anderson,39,male,Diabetes,ATORVASTATIN,2019-11-09,211.6,143.0,95.0,2019,11
+edward robinson,61,female,Heart Disease,ATORVASTATIN,2021-08-19,206.2,136.0,87.0,2021,8
+sandra young,33,female,Asthma,ALBUTEROL,2018-10-26,203.2,96.0,78.0,2018,10
+ronald white,60,female,Heart Disease,LISINOPRIL,2018-08-08,251.3,141.0,86.0,2018,8
+laura walker,38,female,Hypertension,,2022-09-14,190.2,172.0,98.0,2022,9
+ruth jackson,64,female,Hypertension,NONE,2023-09-27,221.4,150.0,99.0,2023,9
+carol walker,56,female,Heart Disease,LISINOPRIL,2019-07-05,216.0,161.0,71.0,2019,7
+edward hall,52,other,Asthma,NONE,2019-05-15,176.9,121.0,64.0,2019,5
+betty harris,55,female,Diabetes,ATORVASTATIN,2020-08-19,212.7,129.0,88.0,2020,8
+james taylor,76,female,Hypertension,LISINOPRIL,2023-12-16,189.7,172.0,98.0,2023,12
+donna robinson,79,male,Diabetes,ATORVASTATIN,2022-02-12,206.2,113.0,90.0,2022,2
+jessica jackson,20,female,Asthma,ALBUTEROL,2023-06-02,204.9,117.0,83.0,2023,6
+ruth martin,46,male,Asthma,,2022-04-18,175.9,136.0,87.0,2022,4
+kevin moore,51,female,Hypertension,,2019-10-28,190.0,171.0,97.0,2019,10
+brian garcia,39,male,Hypertension,,2019-02-12,190.3,155.0,99.0,2019,2
+anthony young,61,female,Heart Disease,LISINOPRIL,2018-02-01,292.7,136.0,87.0,2018,2
+brian lewis,19,male,Asthma,ALBUTEROL,2019-11-15,185.4,126.0,62.0,2019,11
+jessica martin,53,male,Heart Disease,ATORVASTATIN,2019-10-03,265.3,142.0,86.0,2019,10
+charles anderson,33,male,Diabetes,METFORMIN,2019-11-16,176.7,117.0,74.0,2019,11
+michael martin,22,male,Asthma,,2018-09-03,187.7,119.0,84.0,2018,9
+jessica thompson,27,female,Asthma,,2020-12-22,193.9,105.0,84.0,2020,12
+jessica lee,55,female,Hypertension,LISINOPRIL,2022-02-11,188.7,121.0,103.0,2022,2
+kenneth walker,52,female,Heart Disease,ATORVASTATIN,2018-10-02,238.1,123.0,100.0,2018,10
+nancy allen,66,male,Heart Disease,ATORVASTATIN,2021-11-22,206.2,154.0,93.0,2021,11
+sharon harris,55,other,Diabetes,ATORVASTATIN,2018-05-13,221.1,129.0,80.0,2018,5
+michael moore,66,female,Heart Disease,ATORVASTATIN,2018-12-13,248.2,141.0,89.0,2018,12
+donna davis,49,female,Asthma,,2022-05-13,166.0,96.0,74.0,2022,5
+kevin anderson,54,female,Hypertension,NONE,2021-11-17,196.7,145.0,98.0,2021,11
+charles wilson,72,male,Heart Disease,ATORVASTATIN,2023-04-01,194.0,136.0,87.0,2023,4
+donna young,37,male,Asthma,NONE,2019-12-15,176.7,121.0,82.0,2019,12
+mark wilson,58,male,Diabetes,METFORMIN,2018-10-05,168.5,136.0,87.0,2018,10
+karen martinez,57,female,Heart Disease,ATORVASTATIN,2020-10-09,264.8,159.0,86.0,2020,10
+emily lee,71,male,Heart Disease,LISINOPRIL,2021-08-13,191.7,148.0,97.0,2021,8
+donna robinson,33,female,Diabetes,METFORMIN,2018-09-22,245.9,132.0,71.0,2018,9
+james martin,45,female,Hypertension,LISINOPRIL,2019-03-01,206.2,135.0,88.0,2019,3
+kevin martin,35,female,Asthma,,2019-12-02,186.7,114.0,67.0,2019,12
+edward thomas,48,female,Asthma,ALBUTEROL,2019-07-12,171.2,124.0,79.0,2019,7
+kevin white,47,female,Heart Disease,LISINOPRIL,2018-11-01,215.9,143.0,90.0,2018,11
+jessica lewis,18,male,Asthma,NONE,2023-03-12,183.1,123.0,64.0,2023,3
+james taylor,56,female,Diabetes,ATORVASTATIN,2023-02-13,215.3,122.0,84.0,2023,2
+sandra thompson,50,male,Heart Disease,LISINOPRIL,2020-08-22,226.5,148.0,86.0,2020,8
+robert wilson,68,male,Heart Disease,LISINOPRIL,2019-11-02,213.8,144.0,100.0,2019,11
+anthony lee,63,female,Heart Disease,ATORVASTATIN,2023-02-09,219.0,136.0,87.0,2023,2
+emily young,26,female,Asthma,ALBUTEROL,2019-01-05,181.5,116.0,74.0,2019,1
+daniel harris,62,male,Hypertension,LISINOPRIL,2023-11-25,197.4,177.0,97.0,2023,11
+helen moore,56,female,Asthma,ALBUTEROL,2019-07-23,202.9,112.0,77.0,2019,7
+paul harris,33,female,Asthma,,2019-11-24,166.7,124.0,70.0,2019,11
+david garcia,48,female,Diabetes,METFORMIN,2023-10-08,240.0,136.0,97.0,2023,10
+karen allen,48,female,Diabetes,ATORVASTATIN,2019-12-02,216.8,111.0,75.0,2019,12
+daniel lewis,63,male,Heart Disease,ATORVASTATIN,2020-07-20,245.8,155.0,87.0,2020,7
+emily robinson,50,male,Diabetes,ATORVASTATIN,2019-07-23,275.6,127.0,85.0,2019,7
+donna lewis,49,male,Diabetes,METFORMIN,2021-03-16,195.7,151.0,82.0,2021,3
+mark harris,49,female,Hypertension,,2019-08-09,193.3,138.0,105.0,2019,8
+paul thomas,61,male,Hypertension,,2020-11-24,235.2,164.0,109.0,2020,11
+james wilson,37,female,Asthma,,2018-01-24,180.5,123.0,78.0,2018,1
+david hall,37,male,Asthma,ALBUTEROL,2019-04-04,181.7,114.0,77.0,2019,4
+karen thomas,49,male,Diabetes,ATORVASTATIN,2023-08-27,206.2,136.0,92.0,2023,8
+carol lewis,18,female,Asthma,ALBUTEROL,2022-11-20,150.0,112.0,80.0,2022,11
+ruth garcia,70,male,Diabetes,METFORMIN,2023-05-06,253.5,113.0,101.0,2023,5
+sandra jackson,39,male,Asthma,ALBUTEROL,2021-05-10,196.5,118.0,76.0,2021,5
+kenneth allen,40,male,Diabetes,ATORVASTATIN,2023-07-20,171.3,131.0,86.0,2023,7
+sarah martinez,39,female,Asthma,ALBUTEROL,2021-06-27,204.8,115.0,67.0,2021,6
+sarah martinez,49,male,Asthma,,2019-10-01,193.2,116.0,77.0,2019,10
+brian thomas,42,male,Asthma,,2020-06-05,195.0,126.0,78.0,2020,6
+betty moore,46,female,Hypertension,NONE,2023-05-12,198.3,136.0,87.0,2023,5
+mark martinez,44,male,Diabetes,ATORVASTATIN,2022-04-19,235.2,116.0,91.0,2022,4
+charles anderson,18,female,Asthma,ALBUTEROL,2018-08-26,177.7,117.0,86.0,2018,8
+donna thompson,53,female,Diabetes,METFORMIN,2020-04-07,218.2,140.0,76.0,2020,4
+charles martinez,32,female,Asthma,,2021-08-24,206.2,136.0,87.0,2021,8
+michael taylor,38,female,Asthma,,2018-07-08,208.0,115.0,70.0,2018,7
+paul walker,44,female,Asthma,ALBUTEROL,2018-03-25,210.8,106.0,78.0,2018,3
+paul wilson,60,male,Heart Disease,ATORVASTATIN,2020-07-18,231.6,122.0,95.0,2020,7
+david davis,60,female,Hypertension,,2023-08-20,203.3,137.0,97.0,2023,8
+kevin walker,64,female,Heart Disease,LISINOPRIL,2018-08-20,226.1,149.0,92.0,2018,8
+kenneth allen,57,female,Diabetes,ATORVASTATIN,2021-03-16,196.0,130.0,86.0,2021,3
+laura young,71,female,Diabetes,ATORVASTATIN,2018-04-14,215.3,142.0,85.0,2018,4
+kevin garcia,18,female,Asthma,ALBUTEROL,2018-04-24,200.0,127.0,69.0,2018,4
+betty martinez,41,other,Asthma,NONE,2019-10-12,192.9,136.0,87.0,2019,10
+laura thomas,70,male,Heart Disease,LISINOPRIL,2021-04-13,260.5,160.0,91.0,2021,4
+carol jackson,54,male,Diabetes,ATORVASTATIN,2019-03-17,188.6,125.0,85.0,2019,3
+lisa wilson,72,female,Diabetes,METFORMIN,2022-02-25,198.1,138.0,85.0,2022,2
+edward young,55,other,Heart Disease,LISINOPRIL,2023-09-04,223.8,160.0,101.0,2023,9
+david harris,52,male,Hypertension,LISINOPRIL,2019-10-02,207.8,160.0,93.0,2019,10
+ronald lewis,49,other,Asthma,ALBUTEROL,2023-09-08,192.9,120.0,67.0,2023,9
+helen garcia,41,female,Asthma,ALBUTEROL,2023-05-14,198.0,102.0,65.0,2023,5
+carol robinson,55,female,Diabetes,METFORMIN,2019-09-21,198.0,120.0,92.0,2019,9
+lisa allen,56,other,Diabetes,METFORMIN,2020-09-19,206.2,135.0,85.0,2020,9
+nancy lewis,43,male,Diabetes,ATORVASTATIN,2021-07-12,216.4,129.0,85.0,2021,7
+james lewis,61,female,Heart Disease,ATORVASTATIN,2020-09-25,311.4,148.0,104.0,2020,9
+nancy thompson,43,female,Asthma,ALBUTEROL,2019-07-08,186.7,118.0,84.0,2019,7
+betty jackson,69,male,Diabetes,ATORVASTATIN,2021-01-03,206.2,129.0,95.0,2021,1
+brian thompson,57,male,Heart Disease,ATORVASTATIN,2022-04-20,203.0,132.0,88.0,2022,4
+paul white,26,male,Asthma,ALBUTEROL,2019-12-07,183.2,105.0,61.0,2019,12
+karen white,57,female,Hypertension,NONE,2023-02-25,165.1,136.0,87.0,2023,2
+ruth allen,48,male,Hypertension,LISINOPRIL,2018-05-04,212.5,167.0,95.0,2018,5
+carol lewis,68,male,Heart Disease,ATORVASTATIN,2023-08-07,231.6,154.0,93.0,2023,8
+emily thomas,29,male,Asthma,ALBUTEROL,2018-04-20,198.6,118.0,77.0,2018,4
+george lewis,55,female,Heart Disease,ATORVASTATIN,2023-08-25,206.2,124.0,92.0,2023,8
+charles walker,24,male,Asthma,,2023-04-15,179.9,117.0,65.0,2023,4
+betty wilson,52,female,Diabetes,METFORMIN,2018-12-15,261.8,126.0,86.0,2018,12
+emily walker,28,female,Hypertension,,2018-01-16,206.2,158.0,97.0,2018,1
+susan white,77,male,Heart Disease,LISINOPRIL,2019-12-10,269.0,145.0,90.0,2019,12
+ruth moore,34,female,Hypertension,LISINOPRIL,2020-11-21,230.8,157.0,91.0,2020,11
+susan thomas,56,male,Diabetes,METFORMIN,2021-04-13,222.3,127.0,86.0,2021,4
+karen taylor,65,male,Hypertension,LISINOPRIL,2019-07-23,199.9,149.0,109.0,2019,7
+james anderson,47,other,Hypertension,LISINOPRIL,2019-06-19,191.3,169.0,110.0,2019,6
+sandra young,46,male,Hypertension,,2019-09-05,188.7,169.0,105.0,2019,9
+karen martinez,40,male,Asthma,,2019-08-21,199.8,118.0,68.0,2019,8
+sarah davis,56,female,Heart Disease,LISINOPRIL,2019-01-19,213.9,139.0,71.0,2019,1
+robert lewis,40,male,Asthma,,2023-08-19,190.8,116.0,80.0,2023,8
+james thompson,42,female,Hypertension,LISINOPRIL,2021-10-13,198.6,162.0,83.0,2021,10
+paul garcia,33,male,Diabetes,METFORMIN,2019-08-07,207.1,130.0,82.0,2019,8
+kenneth allen,81,male,Heart Disease,LISINOPRIL,2023-02-19,206.2,162.0,86.0,2023,2
+ruth robinson,62,female,Heart Disease,ATORVASTATIN,2019-08-24,257.2,165.0,93.0,2019,8
+nancy walker,51,male,Heart Disease,LISINOPRIL,2023-09-01,265.4,135.0,94.0,2023,9
+charles robinson,65,female,Heart Disease,ATORVASTATIN,2018-07-19,301.7,137.0,89.0,2018,7
+susan martin,73,male,Diabetes,ATORVASTATIN,2023-03-12,224.4,137.0,72.0,2023,3
+ronald young,50,male,Heart Disease,LISINOPRIL,2023-12-23,226.2,136.0,87.0,2023,12
+sharon lewis,56,female,Diabetes,ATORVASTATIN,2022-04-10,189.4,130.0,82.0,2022,4
+kevin white,44,female,Asthma,ALBUTEROL,2018-12-15,174.0,121.0,79.0,2018,12
+mark lee,63,female,Heart Disease,LISINOPRIL,2022-07-21,240.5,136.0,87.0,2022,7
+kenneth hall,50,male,Hypertension,NONE,2022-06-26,210.9,147.0,103.0,2022,6
+robert jackson,50,female,Diabetes,ATORVASTATIN,2019-10-17,230.0,133.0,81.0,2019,10
+daniel jackson,54,female,Asthma,ALBUTEROL,2019-12-13,178.1,118.0,83.0,2019,12
+michael young,40,female,Hypertension,LISINOPRIL,2022-05-08,216.3,146.0,109.0,2022,5
+robert hall,49,male,Asthma,ALBUTEROL,2021-07-23,158.4,122.0,72.0,2021,7
+david garcia,56,male,Diabetes,METFORMIN,2019-11-18,208.1,134.0,86.0,2019,11
+donna thompson,35,female,Hypertension,LISINOPRIL,2019-08-20,213.7,136.0,95.0,2019,8
+kenneth moore,60,female,Hypertension,LISINOPRIL,2018-09-05,191.1,162.0,93.0,2018,9
+kenneth martin,42,female,Diabetes,ATORVASTATIN,2018-01-27,215.7,136.0,87.0,2018,1
+jessica martin,59,female,Heart Disease,LISINOPRIL,2022-06-27,272.4,146.0,90.0,2022,6
+brian thomas,52,male,Heart Disease,ATORVASTATIN,2023-11-23,247.2,152.0,95.0,2023,11
+donna moore,18,male,Asthma,,2022-02-20,176.8,137.0,78.0,2022,2
+sharon robinson,42,male,Asthma,ALBUTEROL,2020-11-27,206.2,111.0,77.0,2020,11
+david jackson,47,male,Hypertension,,2018-04-28,219.1,152.0,97.0,2018,4
+betty jackson,35,male,Asthma,ALBUTEROL,2022-01-07,184.9,136.0,87.0,2022,1
+jessica anderson,44,male,Diabetes,ATORVASTATIN,2020-01-17,216.1,120.0,81.0,2020,1
+nancy wilson,49,male,Hypertension,,2020-02-21,194.8,168.0,90.0,2020,2
+brian davis,64,female,Diabetes,METFORMIN,2020-06-02,233.4,145.0,86.0,2020,6
+anthony wilson,45,female,Hypertension,,2018-04-17,197.5,160.0,100.0,2018,4
+brian garcia,51,male,Diabetes,METFORMIN,2023-02-20,221.1,122.0,84.0,2023,2
+sharon white,47,male,Hypertension,LISINOPRIL,2023-10-06,217.2,149.0,93.0,2023,10
+ruth harris,56,female,Diabetes,ATORVASTATIN,2020-02-24,221.7,121.0,74.0,2020,2
+ronald hall,43,male,Hypertension,LISINOPRIL,2020-09-18,231.6,141.0,93.0,2020,9
+kevin thomas,42,male,Heart Disease,LISINOPRIL,2020-08-21,238.6,139.0,90.0,2020,8
+helen moore,53,male,Heart Disease,LISINOPRIL,2022-04-06,261.8,158.0,87.0,2022,4
+nancy robinson,47,female,Diabetes,METFORMIN,2019-04-25,200.0,146.0,92.0,2019,4
+michael allen,52,female,Diabetes,METFORMIN,2019-12-20,213.3,136.0,87.0,2019,12
+susan allen,59,male,Heart Disease,LISINOPRIL,2018-03-01,198.6,151.0,95.0,2018,3
+sandra white,61,female,Heart Disease,ATORVASTATIN,2022-06-01,272.0,132.0,84.0,2022,6
+sarah moore,62,male,Diabetes,METFORMIN,2021-09-14,196.3,120.0,87.0,2021,9
+ruth wilson,50,female,Diabetes,ATORVASTATIN,2023-01-07,243.6,143.0,85.0,2023,1
+charles garcia,64,female,Heart Disease,ATORVASTATIN,2022-08-25,274.3,148.0,92.0,2022,8
+brian davis,32,male,Asthma,ALBUTEROL,2018-01-07,196.0,121.0,73.0,2018,1
+anthony taylor,55,male,Heart Disease,ATORVASTATIN,2019-08-13,206.2,144.0,78.0,2019,8
+susan martinez,26,female,Hypertension,LISINOPRIL,2020-06-08,202.4,143.0,93.0,2020,6
+paul harris,36,female,Asthma,ALBUTEROL,2023-04-18,170.9,113.0,76.0,2023,4
+david anderson,39,female,Asthma,NONE,2018-05-01,191.3,107.0,81.0,2018,5
+emily allen,49,male,Hypertension,LISINOPRIL,2021-01-22,197.8,132.0,92.0,2021,1
+sharon lewis,18,male,Asthma,ALBUTEROL,2021-04-19,187.0,121.0,74.0,2021,4
+george anderson,20,female,Asthma,NONE,2019-03-10,161.5,123.0,73.0,2019,3
+karen walker,42,female,Diabetes,METFORMIN,2021-04-13,209.8,111.0,80.0,2021,4
+james young,44,female,Hypertension,LISINOPRIL,2023-06-06,219.1,141.0,92.0,2023,6
+charles harris,63,male,Heart Disease,ATORVASTATIN,2020-05-25,219.0,148.0,98.0,2020,5
+sandra white,35,female,Hypertension,LISINOPRIL,2018-09-01,198.0,168.0,99.0,2018,9
+ruth lee,49,female,Asthma,,2019-02-08,202.5,131.0,77.0,2019,2
+laura martin,53,male,Asthma,ALBUTEROL,2019-08-16,171.9,116.0,80.0,2019,8
+nancy white,50,female,Diabetes,ATORVASTATIN,2020-04-12,231.5,116.0,72.0,2020,4
+kenneth lewis,64,male,Diabetes,METFORMIN,2021-07-15,198.5,129.0,79.0,2021,7
+daniel harris,49,female,Asthma,NONE,2018-10-16,177.9,120.0,76.0,2018,10
+edward anderson,56,male,Heart Disease,ATORVASTATIN,2023-02-10,242.4,168.0,88.0,2023,2
+brian moore,33,female,Asthma,NONE,2022-12-27,219.5,118.0,86.0,2022,12
+paul anderson,32,male,Asthma,,2018-11-20,201.7,116.0,69.0,2018,11
+ruth harris,72,female,Heart Disease,ATORVASTATIN,2018-11-25,256.5,171.0,93.0,2018,11
+kenneth harris,40,female,Asthma,,2020-09-05,175.1,136.0,87.0,2020,9
+betty thompson,54,male,Diabetes,ATORVASTATIN,2021-12-25,201.0,121.0,72.0,2021,12
+paul walker,32,female,Hypertension,,2023-11-08,210.7,163.0,112.0,2023,11
+susan harris,59,female,Heart Disease,LISINOPRIL,2022-12-02,225.9,136.0,95.0,2022,12
+james lee,41,male,Hypertension,NONE,2018-06-05,202.9,147.0,93.0,2018,6
+laura thompson,34,female,Hypertension,LISINOPRIL,2022-01-21,203.9,153.0,102.0,2022,1
+kevin harris,58,male,Diabetes,METFORMIN,2023-10-27,185.0,125.0,94.0,2023,10
+karen walker,44,female,Hypertension,LISINOPRIL,2021-01-15,181.4,166.0,100.0,2021,1
+kevin lee,31,female,Asthma,ALBUTEROL,2022-01-06,162.4,110.0,70.0,2022,1
+michael martin,55,female,Hypertension,LISINOPRIL,2021-12-10,213.0,155.0,91.0,2021,12
+paul taylor,49,male,Diabetes,ATORVASTATIN,2018-08-13,194.0,122.0,85.0,2018,8
+lisa allen,42,female,Heart Disease,LISINOPRIL,2022-12-17,212.5,136.0,87.0,2022,12
+james harris,61,female,Heart Disease,ATORVASTATIN,2021-05-01,295.0,144.0,86.0,2021,5
+emily walker,44,female,Hypertension,LISINOPRIL,2023-01-10,188.5,145.0,88.0,2023,1
+sarah thomas,38,female,Diabetes,METFORMIN,2020-05-15,210.9,140.0,81.0,2020,5
+charles harris,49,female,Heart Disease,ATORVASTATIN,2023-11-07,190.0,163.0,69.0,2023,11
+carol hall,51,female,Diabetes,METFORMIN,2022-05-23,255.4,130.0,77.0,2022,5
+nancy walker,18,male,Asthma,NONE,2018-02-10,195.9,136.0,87.0,2018,2
+karen robinson,61,female,Heart Disease,LISINOPRIL,2023-12-02,163.2,147.0,97.0,2023,12
+james harris,54,female,Diabetes,ATORVASTATIN,2022-06-18,219.9,122.0,88.0,2022,6
+donna garcia,57,female,Heart Disease,ATORVASTATIN,2019-08-27,235.8,160.0,86.0,2019,8
+daniel white,31,female,Asthma,NONE,2020-12-24,182.6,119.0,69.0,2020,12
+laura thompson,45,female,Hypertension,,2019-09-11,215.4,162.0,87.0,2019,9
+james young,49,male,Heart Disease,LISINOPRIL,2021-02-13,255.0,136.0,87.0,2021,2
+daniel lee,62,male,Diabetes,METFORMIN,2018-10-09,229.8,139.0,75.0,2018,10
+kevin allen,53,female,Hypertension,NONE,2018-07-10,206.2,164.0,93.0,2018,7
+edward martin,33,female,Asthma,,2020-04-19,188.3,122.0,70.0,2020,4
+susan young,38,female,Asthma,NONE,2022-04-07,175.7,121.0,72.0,2022,4
+anthony martinez,62,female,Diabetes,ATORVASTATIN,2023-10-19,204.2,141.0,87.0,2023,10
+karen thomas,53,female,Hypertension,,2022-02-11,185.5,156.0,98.0,2022,2
+helen taylor,67,female,Heart Disease,LISINOPRIL,2019-05-25,184.9,126.0,90.0,2019,5
+nancy robinson,67,male,Diabetes,METFORMIN,2022-11-11,225.2,112.0,87.0,2022,11
+ruth allen,20,male,Asthma,NONE,2022-12-14,188.7,132.0,66.0,2022,12
+charles allen,52,female,Asthma,ALBUTEROL,2020-07-14,197.1,118.0,61.0,2020,7
+james thomas,53,male,Diabetes,ATORVASTATIN,2019-09-12,170.1,116.0,80.0,2019,9
+betty lewis,58,other,Heart Disease,LISINOPRIL,2021-04-15,249.7,148.0,100.0,2021,4
+james walker,45,male,Hypertension,LISINOPRIL,2019-05-16,206.2,135.0,109.0,2019,5
+edward hall,34,female,Asthma,ALBUTEROL,2022-12-02,206.2,111.0,79.0,2022,12
+sharon lee,23,male,Hypertension,LISINOPRIL,2023-07-26,219.4,156.0,92.0,2023,7
+sandra robinson,61,female,Diabetes,ATORVASTATIN,2019-06-02,209.9,127.0,86.0,2019,6
+charles martin,66,female,Heart Disease,ATORVASTATIN,2018-05-21,296.9,145.0,85.0,2018,5
+susan lewis,42,male,Hypertension,,2022-05-06,206.2,136.0,87.0,2022,5
+susan hall,52,male,Diabetes,ATORVASTATIN,2019-05-09,232.8,137.0,74.0,2019,5
+karen jackson,53,male,Hypertension,LISINOPRIL,2018-12-17,235.0,136.0,110.0,2018,12
+david young,48,female,Diabetes,METFORMIN,2019-07-18,206.2,120.0,94.0,2019,7
+helen walker,43,female,Diabetes,ATORVASTATIN,2021-05-19,206.2,125.0,82.0,2021,5
+david white,54,male,Diabetes,METFORMIN,2023-07-10,186.9,136.0,87.0,2023,7
+mark moore,68,male,Diabetes,ATORVASTATIN,2019-07-06,223.4,137.0,92.0,2019,7
+ronald lee,33,female,Hypertension,NONE,2020-07-24,196.0,139.0,83.0,2020,7
+anthony hall,41,female,Diabetes,METFORMIN,2021-09-15,231.8,129.0,81.0,2021,9
+karen martinez,38,female,Asthma,ALBUTEROL,2019-03-08,181.8,121.0,63.0,2019,3
+ronald wilson,41,female,Diabetes,ATORVASTATIN,2019-01-14,185.1,143.0,100.0,2019,1
+charles martinez,61,female,Diabetes,METFORMIN,2019-03-22,241.2,138.0,91.0,2019,3
+brian harris,56,male,Hypertension,LISINOPRIL,2020-02-03,212.6,161.0,96.0,2020,2
+robert taylor,22,male,Asthma,ALBUTEROL,2019-05-13,184.2,127.0,83.0,2019,5
+lisa davis,42,male,Diabetes,METFORMIN,2018-02-20,185.0,122.0,87.0,2018,2
+laura martinez,38,male,Hypertension,LISINOPRIL,2018-10-21,203.0,152.0,110.0,2018,10
+susan wilson,49,male,Asthma,ALBUTEROL,2022-02-16,218.4,125.0,81.0,2022,2
+jessica young,18,female,Asthma,NONE,2022-03-14,173.1,128.0,81.0,2022,3
+charles robinson,53,male,Diabetes,METFORMIN,2020-09-15,177.9,128.0,84.0,2020,9
+robert martinez,43,male,Diabetes,METFORMIN,2020-03-19,231.2,124.0,74.0,2020,3
+donna martin,60,male,Heart Disease,LISINOPRIL,2023-02-13,201.5,137.0,88.0,2023,2
+donna garcia,20,female,Asthma,ALBUTEROL,2018-10-24,168.6,120.0,83.0,2018,10
+emily lee,49,female,Diabetes,ATORVASTATIN,2023-07-25,185.3,130.0,78.0,2023,7
+ruth allen,52,male,Heart Disease,LISINOPRIL,2021-12-19,264.5,124.0,100.0,2021,12
+ronald wilson,49,female,Heart Disease,LISINOPRIL,2019-08-09,203.4,137.0,87.0,2019,8
+sharon jackson,31,female,Asthma,,2022-03-09,153.4,136.0,87.0,2022,3
+brian thomas,31,female,Hypertension,,2021-05-22,204.0,174.0,99.0,2021,5
+paul jackson,59,male,Hypertension,LISINOPRIL,2022-03-06,217.8,144.0,105.0,2022,3
+sandra walker,42,female,Heart Disease,LISINOPRIL,2019-01-11,212.8,135.0,79.0,2019,1
+lisa robinson,46,male,Diabetes,METFORMIN,2021-12-10,206.2,136.0,87.0,2021,12
+brian harris,47,female,Hypertension,LISINOPRIL,2018-05-09,206.2,150.0,100.0,2018,5
+anthony davis,50,male,Diabetes,METFORMIN,2022-06-19,201.6,141.0,89.0,2022,6
+paul young,39,female,Asthma,,2020-01-28,206.2,125.0,75.0,2020,1
+jessica jackson,69,male,Heart Disease,LISINOPRIL,2022-01-26,236.6,145.0,85.0,2022,1
+kenneth wilson,55,male,Diabetes,METFORMIN,2018-12-16,253.9,145.0,96.0,2018,12
+betty taylor,50,male,Diabetes,ATORVASTATIN,2018-06-11,205.6,150.0,87.0,2018,6
+mark lewis,18,female,Asthma,,2020-02-03,175.1,108.0,70.0,2020,2
+paul young,59,female,Heart Disease,ATORVASTATIN,2023-12-22,256.0,145.0,85.0,2023,12
+david anderson,50,male,Heart Disease,ATORVASTATIN,2021-08-06,308.0,152.0,83.0,2021,8
+ronald harris,28,male,Asthma,ALBUTEROL,2021-04-27,178.5,114.0,80.0,2021,4
+kevin martin,43,female,Asthma,ALBUTEROL,2022-07-13,206.2,120.0,79.0,2022,7
+brian young,49,female,Diabetes,ATORVASTATIN,2020-11-21,201.0,133.0,82.0,2020,11
+george young,45,female,Diabetes,METFORMIN,2020-08-23,214.8,139.0,78.0,2020,8
+sandra walker,35,other,Asthma,ALBUTEROL,2021-02-03,196.9,119.0,72.0,2021,2
+robert harris,58,female,Heart Disease,ATORVASTATIN,2021-03-02,206.2,137.0,90.0,2021,3
+sarah wilson,55,male,Hypertension,LISINOPRIL,2018-03-23,232.6,146.0,99.0,2018,3
+jessica walker,37,female,Asthma,NONE,2019-07-25,182.9,124.0,72.0,2019,7
+carol martin,23,male,Asthma,NONE,2019-09-09,181.9,110.0,73.0,2019,9
+betty jackson,28,other,Diabetes,METFORMIN,2023-11-28,206.2,136.0,72.0,2023,11
+jessica robinson,57,female,Hypertension,LISINOPRIL,2018-07-04,213.3,161.0,98.0,2018,7
+lisa hall,78,other,Diabetes,ATORVASTATIN,2018-06-24,242.0,137.0,83.0,2018,6
+robert white,59,female,Diabetes,ATORVASTATIN,2021-07-14,194.0,140.0,87.0,2021,7
+susan thomas,53,male,Heart Disease,ATORVASTATIN,2021-09-05,236.0,167.0,103.0,2021,9
+karen allen,37,male,Asthma,NONE,2019-05-01,166.3,121.0,73.0,2019,5
+anthony moore,55,female,Heart Disease,ATORVASTATIN,2018-11-25,231.0,136.0,87.0,2018,11
+helen robinson,64,female,Hypertension,LISINOPRIL,2019-09-17,186.0,172.0,102.0,2019,9
+carol hall,49,other,Hypertension,NONE,2023-07-02,209.9,130.0,95.0,2023,7
+lisa walker,54,female,Heart Disease,LISINOPRIL,2022-07-07,259.0,137.0,88.0,2022,7
+carol wilson,49,male,Asthma,NONE,2018-02-27,184.8,99.0,74.0,2018,2
+james davis,37,male,Diabetes,METFORMIN,2022-07-24,217.8,112.0,82.0,2022,7
+charles young,78,female,Hypertension,LISINOPRIL,2018-05-13,213.6,156.0,105.0,2018,5
+brian walker,53,male,Heart Disease,ATORVASTATIN,2020-08-02,225.1,145.0,92.0,2020,8
+edward jackson,58,male,Heart Disease,LISINOPRIL,2022-12-09,211.3,146.0,80.0,2022,12
+helen hall,65,female,Heart Disease,ATORVASTATIN,2021-08-15,226.3,142.0,76.0,2021,8
+sarah wilson,60,female,Diabetes,METFORMIN,2022-11-18,198.7,131.0,86.0,2022,11
+helen jackson,61,male,Heart Disease,LISINOPRIL,2020-05-19,245.9,165.0,86.0,2020,5
+robert thompson,61,female,Heart Disease,LISINOPRIL,2018-06-25,252.5,136.0,87.0,2018,6
+david hall,34,female,Hypertension,NONE,2021-01-20,206.2,136.0,87.0,2021,1
+mark wilson,54,female,Hypertension,LISINOPRIL,2018-08-17,212.0,122.0,97.0,2018,8
+lisa lee,42,male,Diabetes,METFORMIN,2022-03-28,183.0,132.0,83.0,2022,3
+susan walker,74,female,Heart Disease,ATORVASTATIN,2020-09-07,206.2,150.0,100.0,2020,9
+brian lee,41,female,Heart Disease,ATORVASTATIN,2023-04-10,248.0,135.0,76.0,2023,4
+robert lewis,66,male,Heart Disease,LISINOPRIL,2018-08-16,274.2,164.0,93.0,2018,8
+donna lewis,49,male,Hypertension,LISINOPRIL,2023-05-25,194.5,136.0,87.0,2023,5
+ruth young,49,male,Asthma,NONE,2022-12-10,206.2,101.0,80.0,2022,12
+kenneth martin,65,female,Heart Disease,ATORVASTATIN,2021-07-01,193.6,160.0,96.0,2021,7
+donna lee,44,male,Diabetes,METFORMIN,2023-06-10,187.0,120.0,88.0,2023,6
+kenneth wilson,36,female,Diabetes,METFORMIN,2021-08-17,248.3,129.0,79.0,2021,8
+emily martinez,62,male,Heart Disease,LISINOPRIL,2019-07-25,212.8,157.0,84.0,2019,7
+james thomas,43,male,Hypertension,LISINOPRIL,2019-07-26,212.5,153.0,91.0,2019,7
+charles garcia,65,female,Hypertension,LISINOPRIL,2019-11-23,207.9,166.0,80.0,2019,11
+karen wilson,49,male,Diabetes,METFORMIN,2021-02-12,230.3,146.0,89.0,2021,2
+charles jackson,40,female,Asthma,NONE,2023-08-02,192.0,105.0,77.0,2023,8
+ruth martin,41,male,Asthma,,2021-01-26,165.6,120.0,87.0,2021,1
+edward wilson,57,male,Diabetes,METFORMIN,2018-06-14,206.2,119.0,80.0,2018,6
+daniel walker,42,male,Asthma,,2022-11-20,190.1,103.0,76.0,2022,11
+brian hall,51,male,Asthma,,2022-11-05,206.2,110.0,80.0,2022,11
+nancy jackson,36,male,Diabetes,ATORVASTATIN,2020-10-16,204.8,119.0,71.0,2020,10
+mark thompson,47,female,Hypertension,NONE,2021-05-06,188.0,156.0,100.0,2021,5
+robert moore,51,female,Heart Disease,ATORVASTATIN,2020-07-13,221.7,127.0,108.0,2020,7
+edward davis,63,female,Diabetes,ATORVASTATIN,2020-07-16,220.5,134.0,86.0,2020,7
+ronald harris,49,female,Diabetes,METFORMIN,2018-06-26,237.8,129.0,86.0,2018,6
+ronald martinez,61,female,Heart Disease,ATORVASTATIN,2021-09-07,227.8,164.0,91.0,2021,9
+laura young,48,male,Asthma,ALBUTEROL,2018-01-27,206.5,136.0,87.0,2018,1
+ronald martin,44,female,Asthma,NONE,2020-11-07,184.4,131.0,73.0,2020,11
+sharon harris,49,female,Asthma,ALBUTEROL,2018-07-13,173.6,136.0,87.0,2018,7
+sharon white,72,male,Heart Disease,ATORVASTATIN,2020-07-27,258.3,156.0,103.0,2020,7
+ronald anderson,30,female,Asthma,NONE,2020-03-24,206.2,128.0,67.0,2020,3
+ruth garcia,59,female,Hypertension,LISINOPRIL,2022-01-15,182.8,155.0,86.0,2022,1
+emily white,46,female,Hypertension,LISINOPRIL,2019-09-16,173.8,147.0,94.0,2019,9
+anthony anderson,66,female,Heart Disease,ATORVASTATIN,2021-03-25,249.7,147.0,91.0,2021,3
+betty robinson,65,male,Heart Disease,ATORVASTATIN,2021-10-14,235.8,147.0,82.0,2021,10
+brian robinson,52,male,Hypertension,LISINOPRIL,2021-07-14,206.2,136.0,87.0,2021,7
+james harris,41,male,Asthma,ALBUTEROL,2023-02-01,181.7,123.0,75.0,2023,2
+sandra harris,43,other,Hypertension,LISINOPRIL,2022-12-24,199.2,139.0,97.0,2022,12
+daniel hall,80,female,Heart Disease,ATORVASTATIN,2021-06-09,275.7,141.0,89.0,2021,6
+daniel harris,45,male,Diabetes,METFORMIN,2018-03-03,207.7,125.0,80.0,2018,3
+paul garcia,41,female,Diabetes,ATORVASTATIN,2021-05-10,186.1,136.0,87.0,2021,5
+betty garcia,61,male,Heart Disease,LISINOPRIL,2020-12-10,206.2,130.0,83.0,2020,12
+brian walker,53,male,Diabetes,METFORMIN,2019-11-10,226.6,151.0,85.0,2019,11
+nancy lewis,42,male,Diabetes,ATORVASTATIN,2022-10-27,229.8,138.0,102.0,2022,10
+robert harris,49,male,Asthma,,2022-04-19,182.3,112.0,72.0,2022,4
+george hall,66,female,Heart Disease,ATORVASTATIN,2022-02-19,237.6,158.0,84.0,2022,2
+helen hall,45,female,Hypertension,,2022-11-22,196.9,165.0,87.0,2022,11
+anthony harris,57,male,Diabetes,ATORVASTATIN,2018-06-23,176.3,116.0,97.0,2018,6
+paul martinez,30,female,Asthma,ALBUTEROL,2023-06-15,206.9,109.0,70.0,2023,6
+anthony allen,49,female,Heart Disease,LISINOPRIL,2018-05-28,249.1,152.0,88.0,2018,5
+kenneth thompson,48,female,Heart Disease,ATORVASTATIN,2019-07-23,206.8,151.0,81.0,2019,7
+anthony martinez,63,male,Heart Disease,LISINOPRIL,2020-02-02,225.0,152.0,97.0,2020,2
+betty walker,66,female,Hypertension,LISINOPRIL,2018-10-24,196.0,160.0,109.0,2018,10
+donna white,56,male,Heart Disease,ATORVASTATIN,2021-03-05,237.3,143.0,92.0,2021,3
+michael anderson,38,male,Hypertension,LISINOPRIL,2018-06-14,226.0,144.0,102.0,2018,6
+james anderson,51,female,Heart Disease,LISINOPRIL,2018-08-13,233.6,141.0,86.0,2018,8
+brian allen,60,female,Heart Disease,LISINOPRIL,2019-07-14,244.9,149.0,81.0,2019,7
+donna thompson,53,male,Diabetes,METFORMIN,2021-02-05,213.1,121.0,83.0,2021,2
+laura lee,30,male,Asthma,NONE,2022-11-16,190.6,113.0,76.0,2022,11
+edward thompson,32,male,Hypertension,LISINOPRIL,2023-05-08,195.5,156.0,93.0,2023,5
+susan harris,55,male,Heart Disease,ATORVASTATIN,2019-11-04,261.7,136.0,88.0,2019,11
+james thomas,50,male,Heart Disease,LISINOPRIL,2019-05-22,208.3,144.0,88.0,2019,5
+ronald young,66,female,Hypertension,LISINOPRIL,2018-07-12,194.3,136.0,87.0,2018,7
+kenneth allen,49,male,Hypertension,LISINOPRIL,2021-11-14,222.8,165.0,95.0,2021,11
+paul lewis,69,female,Heart Disease,LISINOPRIL,2018-11-09,224.6,156.0,96.0,2018,11
+sharon allen,47,female,Hypertension,NONE,2023-11-26,180.9,129.0,96.0,2023,11
+donna harris,51,male,Hypertension,LISINOPRIL,2023-04-22,193.6,149.0,87.0,2023,4
+george wilson,63,female,Diabetes,METFORMIN,2020-09-01,219.0,154.0,85.0,2020,9
+susan white,27,female,Asthma,ALBUTEROL,2018-02-27,206.2,114.0,67.0,2018,2
+george martin,31,male,Asthma,NONE,2023-06-01,200.0,136.0,87.0,2023,6
+lisa thomas,71,female,Hypertension,LISINOPRIL,2019-08-14,170.0,144.0,96.0,2019,8
+edward taylor,23,female,Asthma,NONE,2019-03-27,174.1,135.0,71.0,2019,3
+sandra davis,27,male,Hypertension,NONE,2020-01-21,173.3,162.0,75.0,2020,1
+sarah davis,67,male,Heart Disease,LISINOPRIL,2018-05-27,222.9,136.0,87.0,2018,5
+betty anderson,49,female,Heart Disease,ATORVASTATIN,2019-12-07,244.7,136.0,103.0,2019,12
+ronald lee,55,female,Diabetes,ATORVASTATIN,2019-06-27,208.9,134.0,83.0,2019,6
+paul hall,45,male,Hypertension,NONE,2020-02-26,179.9,180.0,96.0,2020,2
+helen thomas,57,male,Heart Disease,ATORVASTATIN,2019-02-13,196.0,132.0,94.0,2019,2
+donna walker,25,male,Diabetes,METFORMIN,2018-09-23,198.4,131.0,83.0,2018,9
+daniel anderson,50,female,Hypertension,,2018-02-13,195.0,163.0,106.0,2018,2
+ruth walker,19,male,Asthma,ALBUTEROL,2020-03-07,186.0,109.0,71.0,2020,3
+helen martinez,50,other,Asthma,,2023-05-27,203.7,125.0,66.0,2023,5
+laura young,67,male,Hypertension,,2020-09-07,205.5,157.0,95.0,2020,9
+paul martin,49,female,Heart Disease,ATORVASTATIN,2020-02-03,264.9,136.0,86.0,2020,2
+george martinez,41,female,Hypertension,,2020-01-26,185.5,150.0,94.0,2020,1
+michael walker,49,female,Diabetes,METFORMIN,2021-12-13,206.0,136.0,87.0,2021,12
+helen garcia,49,female,Heart Disease,ATORVASTATIN,2023-02-10,206.2,147.0,98.0,2023,2
+nancy hall,67,male,Heart Disease,LISINOPRIL,2022-05-14,241.9,140.0,100.0,2022,5
+paul anderson,34,female,Asthma,ALBUTEROL,2022-07-13,172.2,125.0,80.0,2022,7
+lisa davis,36,female,Hypertension,NONE,2019-06-15,202.7,150.0,87.0,2019,6
+michael lewis,55,female,Diabetes,ATORVASTATIN,2022-01-19,224.2,139.0,84.0,2022,1
+carol white,30,male,Hypertension,,2022-05-10,209.0,150.0,110.0,2022,5
+susan wilson,18,male,Asthma,ALBUTEROL,2022-10-08,206.2,125.0,67.0,2022,10
+anthony lee,41,male,Hypertension,,2021-09-20,200.5,139.0,96.0,2021,9
+laura wilson,25,male,Asthma,,2020-02-12,167.9,136.0,87.0,2020,2
+sarah lee,42,male,Diabetes,METFORMIN,2018-02-27,242.0,148.0,75.0,2018,2
+jessica thomas,52,female,Asthma,,2018-11-22,192.6,107.0,80.0,2018,11
+sarah davis,61,female,Hypertension,LISINOPRIL,2018-10-16,218.7,153.0,105.0,2018,10
+daniel walker,59,male,Hypertension,LISINOPRIL,2019-06-28,233.2,151.0,98.0,2019,6
+sarah young,33,male,Asthma,ALBUTEROL,2020-12-28,184.4,112.0,78.0,2020,12
+jessica taylor,44,female,Hypertension,LISINOPRIL,2022-02-04,209.6,162.0,108.0,2022,2
+brian lee,39,male,Hypertension,,2019-03-02,190.0,194.0,101.0,2019,3
+laura robinson,42,female,Hypertension,NONE,2019-07-20,212.9,143.0,88.0,2019,7
+george moore,49,female,Hypertension,LISINOPRIL,2019-08-13,217.3,153.0,104.0,2019,8
+david white,37,male,Hypertension,LISINOPRIL,2022-03-05,206.2,159.0,96.0,2022,3
+sarah davis,49,female,Heart Disease,ATORVASTATIN,2021-01-18,206.2,134.0,94.0,2021,1
+michael martin,53,male,Hypertension,LISINOPRIL,2018-12-24,223.1,152.0,96.0,2018,12
+sharon martinez,47,male,Asthma,,2019-04-05,188.5,119.0,77.0,2019,4
+sharon allen,40,female,Hypertension,LISINOPRIL,2021-02-11,187.0,136.0,87.0,2021,2
+paul thompson,50,male,Diabetes,METFORMIN,2018-01-05,216.6,122.0,77.0,2018,1
+sarah robinson,75,female,Heart Disease,ATORVASTATIN,2018-04-23,206.2,132.0,98.0,2018,4
+carol thompson,39,female,Diabetes,ATORVASTATIN,2021-01-14,202.1,123.0,90.0,2021,1
+helen jackson,49,male,Hypertension,LISINOPRIL,2020-02-03,185.4,128.0,100.0,2020,2
+kenneth white,65,female,Heart Disease,LISINOPRIL,2023-07-04,218.6,136.0,87.0,2023,7
+mark harris,63,male,Heart Disease,LISINOPRIL,2018-12-12,219.4,144.0,91.0,2018,12
+anthony thomas,61,female,Diabetes,ATORVASTATIN,2022-03-19,172.8,122.0,81.0,2022,3
+paul lee,52,female,Hypertension,NONE,2019-06-15,180.0,163.0,92.0,2019,6
+susan young,30,female,Diabetes,ATORVASTATIN,2022-11-05,174.6,131.0,81.0,2022,11
+donna lewis,36,female,Asthma,,2022-07-11,206.2,105.0,76.0,2022,7
+kevin martin,48,female,Diabetes,METFORMIN,2020-05-20,197.2,115.0,88.0,2020,5
+michael martin,43,female,Hypertension,LISINOPRIL,2021-09-24,200.6,157.0,91.0,2021,9
+james martin,49,female,Hypertension,,2022-06-12,207.1,146.0,97.0,2022,6
+betty allen,61,other,Diabetes,ATORVASTATIN,2022-03-20,199.3,148.0,76.0,2022,3
+sharon moore,41,female,Hypertension,,2021-04-17,233.7,154.0,112.0,2021,4
+lisa martinez,43,female,Hypertension,LISINOPRIL,2021-06-06,178.5,178.0,97.0,2021,6
+jessica thomas,36,male,Diabetes,ATORVASTATIN,2021-10-05,229.1,149.0,89.0,2021,10
+jessica anderson,56,female,Heart Disease,ATORVASTATIN,2019-12-20,206.8,146.0,90.0,2019,12
+karen allen,29,male,Asthma,NONE,2022-12-21,179.7,136.0,87.0,2022,12
+laura davis,49,male,Heart Disease,ATORVASTATIN,2021-10-16,262.1,154.0,88.0,2021,10
+anthony jackson,46,male,Diabetes,METFORMIN,2020-11-04,226.0,136.0,87.0,2020,11
+brian jackson,60,male,Heart Disease,ATORVASTATIN,2019-06-15,231.8,143.0,93.0,2019,6
+susan allen,49,male,Asthma,,2021-12-19,168.9,123.0,87.0,2021,12
+helen jackson,33,male,Asthma,,2019-02-09,190.2,133.0,88.0,2019,2
+robert robinson,44,female,Diabetes,METFORMIN,2018-12-17,198.0,116.0,86.0,2018,12
+james martinez,44,male,Asthma,,2020-12-02,206.2,136.0,87.0,2020,12
+helen robinson,53,female,Heart Disease,ATORVASTATIN,2020-02-23,241.9,136.0,87.0,2020,2
+charles white,61,male,Hypertension,,2023-03-18,202.4,176.0,104.0,2023,3
+james white,49,female,Diabetes,ATORVASTATIN,2022-12-11,226.9,127.0,93.0,2022,12
+david garcia,26,male,Diabetes,METFORMIN,2019-11-25,172.4,119.0,87.0,2019,11
+charles walker,74,male,Heart Disease,ATORVASTATIN,2020-06-23,242.5,137.0,87.0,2020,6
+paul anderson,31,female,Asthma,,2018-05-01,186.6,131.0,67.0,2018,5
+karen harris,37,male,Diabetes,METFORMIN,2020-03-10,234.3,126.0,86.0,2020,3
+donna white,52,female,Hypertension,,2021-02-21,206.2,136.0,87.0,2021,2
+anthony davis,51,male,Diabetes,METFORMIN,2019-01-02,180.5,117.0,91.0,2019,1
+jessica davis,54,male,Hypertension,,2019-11-12,146.3,161.0,89.0,2019,11
+lisa walker,45,female,Heart Disease,ATORVASTATIN,2022-07-11,211.9,136.0,87.0,2022,7
+daniel jackson,59,male,Heart Disease,LISINOPRIL,2019-06-16,250.0,138.0,96.0,2019,6
+lisa thomas,45,male,Diabetes,METFORMIN,2018-11-16,221.8,121.0,79.0,2018,11
+emily anderson,43,male,Asthma,ALBUTEROL,2020-12-24,196.9,115.0,73.0,2020,12
+sandra martinez,18,male,Asthma,,2018-03-17,180.0,102.0,67.0,2018,3
+david taylor,44,male,Asthma,ALBUTEROL,2018-05-25,189.1,112.0,68.0,2018,5
+sandra lewis,47,female,Hypertension,,2022-05-28,178.1,152.0,90.0,2022,5
+anthony jackson,54,female,Diabetes,ATORVASTATIN,2021-07-26,206.2,129.0,86.0,2021,7
+george thompson,64,female,Heart Disease,ATORVASTATIN,2021-10-07,204.3,166.0,87.0,2021,10
+sharon robinson,64,female,Heart Disease,LISINOPRIL,2019-07-25,248.0,131.0,101.0,2019,7
+emily white,67,female,Heart Disease,ATORVASTATIN,2019-06-11,278.8,149.0,107.0,2019,6
+sarah harris,68,male,Heart Disease,ATORVASTATIN,2021-11-15,206.2,144.0,80.0,2021,11
+karen harris,18,female,Asthma,ALBUTEROL,2022-07-06,176.1,120.0,83.0,2022,7
+george allen,47,male,Heart Disease,LISINOPRIL,2023-12-07,298.9,144.0,95.0,2023,12
+michael martin,30,female,Hypertension,,2021-06-25,197.1,150.0,107.0,2021,6
+sarah moore,60,female,Hypertension,LISINOPRIL,2019-04-17,181.8,150.0,88.0,2019,4
+jessica allen,46,female,Diabetes,ATORVASTATIN,2018-06-21,207.6,120.0,82.0,2018,6
+michael moore,55,female,Diabetes,ATORVASTATIN,2023-05-15,206.2,133.0,85.0,2023,5
+sarah garcia,54,female,Diabetes,METFORMIN,2022-05-16,231.1,131.0,79.0,2022,5
+sharon allen,59,female,Hypertension,,2018-01-03,182.6,146.0,108.0,2018,1
+mark garcia,31,male,Asthma,ALBUTEROL,2021-03-10,180.1,116.0,72.0,2021,3
+edward wilson,45,male,Asthma,,2020-07-15,188.0,125.0,78.0,2020,7
+susan martin,44,male,Asthma,,2023-03-23,212.3,123.0,66.0,2023,3
+ruth martinez,34,male,Hypertension,LISINOPRIL,2020-04-24,213.7,144.0,94.0,2020,4
+donna martin,39,male,Asthma,ALBUTEROL,2021-12-20,206.1,118.0,79.0,2021,12
+helen wilson,53,female,Heart Disease,ATORVASTATIN,2020-07-13,223.0,143.0,95.0,2020,7
+anthony walker,18,female,Asthma,ALBUTEROL,2018-06-13,171.2,129.0,77.0,2018,6
+lisa anderson,44,female,Hypertension,,2018-08-07,234.0,154.0,87.0,2018,8
+michael martinez,59,female,Diabetes,METFORMIN,2018-09-04,231.9,114.0,86.0,2018,9
+david thomas,63,male,Heart Disease,ATORVASTATIN,2018-01-11,244.7,132.0,79.0,2018,1
+james lewis,56,male,Hypertension,LISINOPRIL,2018-05-11,193.2,152.0,99.0,2018,5
+ruth wilson,52,female,Heart Disease,LISINOPRIL,2020-08-09,207.4,144.0,92.0,2020,8
+sarah lee,78,female,Heart Disease,LISINOPRIL,2022-07-10,206.2,170.0,103.0,2022,7
+paul young,37,other,Hypertension,LISINOPRIL,2021-06-17,191.5,166.0,83.0,2021,6
+sandra jackson,46,female,Diabetes,ATORVASTATIN,2021-11-13,206.9,135.0,78.0,2021,11
+betty lewis,62,male,Diabetes,ATORVASTATIN,2019-03-14,206.2,144.0,83.0,2019,3
+daniel garcia,32,female,Hypertension,LISINOPRIL,2018-09-02,186.5,172.0,96.0,2018,9
+ruth taylor,47,other,Hypertension,,2020-07-10,226.7,166.0,88.0,2020,7
+james taylor,43,other,Diabetes,ATORVASTATIN,2018-09-17,223.4,129.0,79.0,2018,9
+nancy taylor,41,male,Hypertension,LISINOPRIL,2019-05-15,202.6,137.0,106.0,2019,5
+edward davis,73,male,Heart Disease,ATORVASTATIN,2019-01-22,259.6,129.0,95.0,2019,1
+karen davis,60,male,Heart Disease,LISINOPRIL,2018-03-19,239.6,141.0,88.0,2018,3
+carol lee,51,male,Diabetes,ATORVASTATIN,2019-05-08,206.2,128.0,81.0,2019,5
+laura garcia,27,male,Asthma,ALBUTEROL,2021-02-17,163.3,118.0,72.0,2021,2
+mark anderson,69,female,Heart Disease,ATORVASTATIN,2021-10-24,251.8,151.0,77.0,2021,10
+daniel robinson,24,male,Asthma,NONE,2022-08-08,181.0,112.0,84.0,2022,8
+paul thompson,63,female,Diabetes,METFORMIN,2021-07-04,215.0,106.0,87.0,2021,7
+edward jackson,57,female,Diabetes,ATORVASTATIN,2021-06-22,210.4,128.0,88.0,2021,6
+donna martinez,49,female,Heart Disease,LISINOPRIL,2021-03-20,234.5,141.0,94.0,2021,3
+david martin,49,female,Hypertension,LISINOPRIL,2023-11-17,237.2,180.0,100.0,2023,11
+donna taylor,49,female,Asthma,ALBUTEROL,2021-07-21,178.9,118.0,74.0,2021,7
+kevin thompson,54,male,Hypertension,LISINOPRIL,2021-09-16,191.0,141.0,95.0,2021,9
+robert allen,41,male,Diabetes,ATORVASTATIN,2018-05-20,206.1,124.0,88.0,2018,5
+mark allen,46,female,Diabetes,METFORMIN,2023-03-24,206.2,140.0,86.0,2023,3
+sharon lee,70,female,Heart Disease,LISINOPRIL,2018-04-01,257.6,133.0,103.0,2018,4
+susan jackson,53,female,Hypertension,LISINOPRIL,2019-07-13,229.6,159.0,103.0,2019,7
+jessica walker,40,male,Hypertension,LISINOPRIL,2018-02-07,200.7,151.0,88.0,2018,2
+emily robinson,65,male,Diabetes,METFORMIN,2021-04-09,177.1,144.0,90.0,2021,4
+david anderson,45,male,Diabetes,ATORVASTATIN,2020-08-20,211.0,119.0,75.0,2020,8
+karen garcia,48,female,Hypertension,LISINOPRIL,2018-11-05,226.8,170.0,99.0,2018,11
+karen lee,71,male,Hypertension,NONE,2023-07-27,195.4,136.0,87.0,2023,7
+brian davis,64,male,Heart Disease,ATORVASTATIN,2021-07-04,290.4,147.0,111.0,2021,7
+mark moore,59,other,Heart Disease,LISINOPRIL,2018-02-01,225.9,148.0,99.0,2018,2
+susan white,64,female,Heart Disease,LISINOPRIL,2018-06-03,233.7,157.0,110.0,2018,6
+nancy allen,49,female,Diabetes,METFORMIN,2018-04-02,224.0,135.0,76.0,2018,4
+edward anderson,43,male,Hypertension,LISINOPRIL,2018-05-21,206.2,167.0,105.0,2018,5
+nancy allen,49,male,Heart Disease,ATORVASTATIN,2018-09-15,226.5,131.0,93.0,2018,9
+kevin jackson,51,female,Asthma,,2019-03-26,177.7,135.0,75.0,2019,3
+paul lee,49,male,Hypertension,LISINOPRIL,2019-11-28,229.7,146.0,87.0,2019,11
+david white,69,female,Diabetes,ATORVASTATIN,2022-05-28,205.8,129.0,81.0,2022,5
+david wilson,59,female,Heart Disease,ATORVASTATIN,2023-07-11,224.4,145.0,99.0,2023,7
+susan lee,69,male,Heart Disease,LISINOPRIL,2022-11-03,217.9,137.0,105.0,2022,11
+laura davis,44,female,Diabetes,METFORMIN,2019-04-21,232.4,141.0,91.0,2019,4
+emily davis,33,female,Hypertension,LISINOPRIL,2022-02-21,199.2,152.0,101.0,2022,2
+david taylor,49,female,Hypertension,LISINOPRIL,2021-11-19,213.0,156.0,96.0,2021,11
+mark white,49,female,Asthma,ALBUTEROL,2019-07-24,193.7,117.0,74.0,2019,7
+betty harris,32,male,Asthma,ALBUTEROL,2020-09-12,174.0,121.0,77.0,2020,9
+nancy lee,45,female,Hypertension,LISINOPRIL,2018-02-23,206.2,146.0,101.0,2018,2
+nancy young,59,male,Diabetes,METFORMIN,2019-11-26,230.7,133.0,83.0,2019,11
+jessica taylor,60,female,Heart Disease,ATORVASTATIN,2021-11-23,262.2,158.0,89.0,2021,11
+david robinson,40,female,Diabetes,ATORVASTATIN,2021-09-12,218.2,140.0,89.0,2021,9
+ruth harris,61,female,Diabetes,METFORMIN,2021-08-05,220.7,135.0,84.0,2021,8
+emily allen,60,male,Heart Disease,LISINOPRIL,2023-05-28,245.7,150.0,99.0,2023,5
+paul robinson,41,male,Asthma,ALBUTEROL,2018-10-18,228.7,103.0,77.0,2018,10
+ronald taylor,39,female,Hypertension,LISINOPRIL,2018-08-11,206.2,149.0,88.0,2018,8
+lisa taylor,49,female,Diabetes,METFORMIN,2019-12-17,219.1,122.0,80.0,2019,12
+carol taylor,38,female,Asthma,ALBUTEROL,2021-07-14,197.6,133.0,93.0,2021,7
+david walker,36,female,Asthma,ALBUTEROL,2023-12-28,173.6,111.0,72.0,2023,12
+helen harris,56,female,Diabetes,METFORMIN,2021-01-02,218.4,124.0,84.0,2021,1
+anthony hall,48,male,Diabetes,ATORVASTATIN,2021-02-02,224.6,155.0,94.0,2021,2
+lisa lee,51,male,Heart Disease,LISINOPRIL,2018-02-07,315.6,136.0,92.0,2018,2
+robert taylor,57,female,Hypertension,LISINOPRIL,2021-10-06,176.0,145.0,101.0,2021,10
+kenneth allen,41,female,Asthma,,2020-12-17,179.4,110.0,76.0,2020,12
+kenneth martin,58,female,Heart Disease,LISINOPRIL,2020-08-24,274.5,159.0,95.0,2020,8
+george hall,35,male,Hypertension,,2020-04-04,207.7,168.0,97.0,2020,4
+karen moore,36,female,Hypertension,,2018-06-21,195.8,136.0,87.0,2018,6
+ronald walker,51,female,Hypertension,LISINOPRIL,2020-12-25,209.9,176.0,113.0,2020,12
+kenneth thompson,61,male,Heart Disease,LISINOPRIL,2023-10-06,243.0,120.0,91.0,2023,10
+emily anderson,31,male,Hypertension,,2021-02-21,215.3,154.0,93.0,2021,2
+carol garcia,52,female,Hypertension,,2022-08-09,230.9,164.0,107.0,2022,8
+sandra wilson,54,male,Diabetes,ATORVASTATIN,2020-01-06,207.5,134.0,87.0,2020,1
+ruth moore,57,male,Diabetes,ATORVASTATIN,2020-02-17,188.2,136.0,98.0,2020,2
+jessica jackson,48,female,Heart Disease,LISINOPRIL,2020-04-07,206.2,133.0,89.0,2020,4
+james lewis,48,male,Heart Disease,ATORVASTATIN,2018-01-06,216.1,143.0,99.0,2018,1
+sarah walker,49,male,Diabetes,METFORMIN,2019-03-28,194.1,129.0,83.0,2019,3
+nancy davis,31,male,Asthma,,2020-11-27,206.2,122.0,75.0,2020,11
+susan harris,49,male,Hypertension,,2022-01-20,177.3,159.0,98.0,2022,1
+karen allen,18,male,Hypertension,LISINOPRIL,2018-03-18,198.2,146.0,95.0,2018,3
+daniel walker,59,male,Diabetes,ATORVASTATIN,2020-05-10,205.7,139.0,77.0,2020,5
+kevin young,41,female,Diabetes,METFORMIN,2018-02-12,201.0,126.0,73.0,2018,2
+jessica wilson,33,female,Asthma,,2019-03-05,205.5,116.0,65.0,2019,3
+nancy anderson,55,male,Hypertension,LISINOPRIL,2022-07-04,196.3,154.0,95.0,2022,7
+david garcia,59,male,Hypertension,LISINOPRIL,2018-01-16,257.7,127.0,103.0,2018,1
+daniel anderson,67,female,Hypertension,,2022-11-05,197.2,152.0,96.0,2022,11
+paul white,39,other,Asthma,ALBUTEROL,2022-10-14,193.3,119.0,77.0,2022,10
+donna young,61,male,Heart Disease,LISINOPRIL,2023-02-20,263.4,149.0,95.0,2023,2
+sandra harris,53,female,Diabetes,METFORMIN,2018-03-03,193.0,136.0,87.0,2018,3
+ronald hall,66,male,Heart Disease,LISINOPRIL,2020-11-23,254.4,150.0,89.0,2020,11
+jessica lewis,26,female,Asthma,NONE,2019-09-05,176.3,115.0,67.0,2019,9
+david moore,48,male,Hypertension,LISINOPRIL,2018-12-04,206.2,151.0,96.0,2018,12
+robert hall,45,male,Hypertension,LISINOPRIL,2023-07-15,207.0,144.0,100.0,2023,7
+michael lewis,18,female,Asthma,,2018-09-21,175.8,136.0,87.0,2018,9
+laura hall,49,female,Diabetes,ATORVASTATIN,2022-10-09,227.6,131.0,89.0,2022,10
+mark jackson,38,female,Asthma,,2020-09-21,180.5,114.0,81.0,2020,9
+james wilson,18,female,Asthma,ALBUTEROL,2018-12-09,165.3,101.0,76.0,2018,12
+robert martin,59,male,Hypertension,LISINOPRIL,2020-03-11,206.2,172.0,99.0,2020,3
+james young,52,male,Heart Disease,LISINOPRIL,2019-10-15,262.5,154.0,91.0,2019,10
+james thompson,49,male,Hypertension,LISINOPRIL,2018-07-11,196.4,154.0,108.0,2018,7
+donna martinez,52,female,Asthma,ALBUTEROL,2018-11-08,177.5,104.0,69.0,2018,11
+lisa garcia,58,female,Hypertension,NONE,2021-11-07,206.0,170.0,79.0,2021,11
+charles white,42,female,Heart Disease,LISINOPRIL,2022-10-23,206.2,134.0,79.0,2022,10
+mark walker,51,female,Diabetes,ATORVASTATIN,2022-06-13,235.6,129.0,83.0,2022,6
+emily davis,47,female,Heart Disease,LISINOPRIL,2018-05-24,280.0,174.0,95.0,2018,5
+lisa garcia,59,male,Heart Disease,LISINOPRIL,2019-12-10,314.9,136.0,87.0,2019,12
+jessica young,18,male,Asthma,,2023-05-04,190.8,118.0,75.0,2023,5
+george lee,49,female,Heart Disease,LISINOPRIL,2019-06-17,265.9,150.0,93.0,2019,6
+ruth thompson,49,female,Heart Disease,LISINOPRIL,2023-08-19,227.9,138.0,94.0,2023,8
+michael martinez,44,male,Hypertension,,2021-12-09,199.5,165.0,92.0,2021,12
+james wilson,58,male,Diabetes,ATORVASTATIN,2020-09-10,228.3,136.0,87.0,2020,9
+donna martinez,49,female,Heart Disease,LISINOPRIL,2023-03-28,222.7,153.0,88.0,2023,3
+emily jackson,68,male,Diabetes,ATORVASTATIN,2019-02-21,213.8,153.0,80.0,2019,2
+robert walker,19,male,Asthma,,2023-04-22,170.0,121.0,70.0,2023,4
+donna garcia,48,male,Hypertension,LISINOPRIL,2018-08-28,210.3,165.0,91.0,2018,8
