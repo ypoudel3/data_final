@@ -1,0 +1,181 @@
+actual,Naive_Bayes,Random_Forest_improved,SVM_improved,Gradient_Boosting,Voting_Ensemble
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Hypertension,Heart Disease,Hypertension,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Asthma,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Asthma,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Asthma,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Diabetes,Diabetes,Diabetes,Heart Disease,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Hypertension,Hypertension,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Heart Disease,Heart Disease,Heart Disease,Hypertension,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Heart Disease,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Hypertension,Hypertension,Hypertension,Heart Disease,Heart Disease
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Diabetes,Heart Disease,Heart Disease,Heart Disease,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Heart Disease,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Diabetes,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Asthma,Asthma,Asthma,Asthma,Asthma,Asthma
+Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease,Heart Disease
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
+Hypertension,Hypertension,Hypertension,Hypertension,Hypertension,Hypertension
